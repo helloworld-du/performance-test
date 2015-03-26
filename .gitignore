@@ -1,2 +1,5 @@
 *.log
 /demo/log/
+/vendor
+/composer.lock
+
