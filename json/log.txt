@@ -1,0 +1,1734 @@
+-----------------start---------------
+2015-03-26 15:10:45 /Users/dushengchen/work/git/kt/rabbitmq/demo/user.log
+Msgs: 2000
+	Json Len: 449.2255859375(KB); Avg Len: 230.0035(B);
+	serialize Len: 684.3076171875(KB); Avg Len: 350.3655(B);
+	Time use: {"json_encode":0.041481018066406,"json_decode":0.048620700836182,"serialize":0.041418790817261,"unserialize":0.042582273483276}
+Msgs: 4000
+	Json Len: 892.5615234375(KB); Avg Len: 228.49575(B);
+	serialize Len: 1359.6806640625(KB); Avg Len: 348.07825(B);
+	Time use: {"json_encode":0.088003396987915,"json_decode":0.10226583480835,"serialize":0.087064504623413,"unserialize":0.089327573776245}
+Msgs: 6000
+	Json Len: 1340.2294921875(KB); Avg Len: 228.7325(B);
+	serialize Len: 2040.6484375(KB); Avg Len: 348.27066666667(B);
+	Time use: {"json_encode":0.13228321075439,"json_decode":0.15394902229309,"serialize":0.13090491294861,"unserialize":0.13456106185913}
+Msgs: 8000
+	Json Len: 1790.1494140625(KB); Avg Len: 229.139125(B);
+	serialize Len: 2725.7216796875(KB); Avg Len: 348.892375(B);
+	Time use: {"json_encode":0.1810131072998,"json_decode":0.21227383613586,"serialize":0.17912101745605,"unserialize":0.18655514717102}
+Msgs: 10000
+	Json Len: 2233.90625(KB); Avg Len: 228.752(B);
+	serialize Len: 3401.4052734375(KB); Avg Len: 348.3039(B);
+	Time use: {"json_encode":0.22393202781677,"json_decode":0.26255702972412,"serialize":0.22187399864197,"unserialize":0.23057746887207}
+Msgs: 12000
+	Json Len: 2678.8076171875(KB); Avg Len: 228.59158333333(B);
+	serialize Len: 4079.80078125(KB); Avg Len: 348.143(B);
+	Time use: {"json_encode":0.27887654304504,"json_decode":0.31243467330933,"serialize":0.26381659507751,"unserialize":0.27384924888611}
+Msgs: 14000
+	Json Len: 3128.349609375(KB); Avg Len: 228.81642857143(B);
+	serialize Len: 4764.15234375(KB); Avg Len: 348.46371428571(B);
+	Time use: {"json_encode":0.32075905799866,"json_decode":0.36148238182068,"serialize":0.30564212799072,"unserialize":0.31632304191589}
+Msgs: 16000
+	Json Len: 3571.0048828125(KB); Avg Len: 228.5443125(B);
+	serialize Len: 5438.58984375(KB); Avg Len: 348.06975(B);
+	Time use: {"json_encode":0.36508202552795,"json_decode":0.41313052177429,"serialize":0.34997344017029,"unserialize":0.36165642738342}
+Msgs: 18000
+	Json Len: 4015.8994140625(KB); Avg Len: 228.46005555556(B);
+	serialize Len: 6115.6904296875(KB); Avg Len: 347.91483333333(B);
+	Time use: {"json_encode":0.40851306915283,"json_decode":0.46316123008728,"serialize":0.39276123046875,"unserialize":0.40621662139893}
+Msgs: 20000
+	Json Len: 4465.1396484375(KB); Avg Len: 228.61515(B);
+	serialize Len: 6799.6552734375(KB); Avg Len: 348.14235(B);
+	Time use: {"json_encode":0.45207929611206,"json_decode":0.51469230651855,"serialize":0.43618488311768,"unserialize":0.4507474899292}
+Msgs: 22000
+	Json Len: 4913.04296875(KB); Avg Len: 228.67981818182(B);
+	serialize Len: 7481.2333984375(KB); Avg Len: 348.21740909091(B);
+	Time use: {"json_encode":0.49718546867371,"json_decode":0.57044076919556,"serialize":0.4811418056488,"unserialize":0.49673247337341}
+Msgs: 24000
+	Json Len: 5357.7705078125(KB); Avg Len: 228.59820833333(B);
+	serialize Len: 8158.5810546875(KB); Avg Len: 348.09945833333(B);
+	Time use: {"json_encode":0.54088473320007,"json_decode":0.6210412979126,"serialize":0.52455067634583,"unserialize":0.54122447967529}
+Msgs: 26000
+	Json Len: 5803.1142578125(KB); Avg Len: 228.55342307692(B);
+	serialize Len: 8836.3232421875(KB); Avg Len: 348.01519230769(B);
+	Time use: {"json_encode":0.5847692489624,"json_decode":0.67294263839722,"serialize":0.56883263587952,"unserialize":0.58674311637878}
+Msgs: 28000
+	Json Len: 6249.0830078125(KB); Avg Len: 228.53789285714(B);
+	serialize Len: 9514.6611328125(KB); Avg Len: 347.96475(B);
+	Time use: {"json_encode":0.63135075569153,"json_decode":0.72571659088135,"serialize":0.61300468444824,"unserialize":0.63198184967041}
+Msgs: 30000
+	Json Len: 6692.5087890625(KB); Avg Len: 228.43763333333(B);
+	serialize Len: 10189.520507812(KB); Avg Len: 347.8023(B);
+	Time use: {"json_encode":0.67546987533569,"json_decode":0.7788712978363,"serialize":0.65779876708984,"unserialize":0.67754936218262}
+Msgs: 32000
+	Json Len: 7142.08203125(KB); Avg Len: 228.546625(B);
+	serialize Len: 10873.645507812(KB); Avg Len: 347.95665625(B);
+	Time use: {"json_encode":0.72194480895996,"json_decode":0.83375763893127,"serialize":0.70420575141907,"unserialize":0.72578310966492}
+Msgs: 34000
+	Json Len: 7587.8203125(KB); Avg Len: 228.52729411765(B);
+	serialize Len: 11552.10546875(KB); Avg Len: 347.92223529412(B);
+	Time use: {"json_encode":0.76491641998291,"json_decode":0.88430762290955,"serialize":0.7475860118866,"unserialize":0.76962208747864}
+Msgs: 36000
+	Json Len: 8036.716796875(KB); Avg Len: 228.59994444444(B);
+	serialize Len: 12235.274414062(KB); Avg Len: 348.02558333333(B);
+	Time use: {"json_encode":0.8066349029541,"json_decode":0.93342018127441,"serialize":0.78927898406982,"unserialize":0.81215620040894}
+Msgs: 38000
+	Json Len: 8484.1669921875(KB); Avg Len: 228.62597368421(B);
+	serialize Len: 12916.419921875(KB); Avg Len: 348.06352631579(B);
+	Time use: {"json_encode":0.85049867630005,"json_decode":0.98501062393188,"serialize":0.8329803943634,"unserialize":0.85706496238708}
+Msgs: 40000
+	Json Len: 8928.8955078125(KB); Avg Len: 228.579725(B);
+	serialize Len: 13593.245117188(KB); Avg Len: 347.987075(B);
+	Time use: {"json_encode":0.89917063713074,"json_decode":1.042585849762,"serialize":0.8823139667511,"unserialize":0.90710186958313}
+Msgs: 42000
+	Json Len: 9374.517578125(KB); Avg Len: 228.55966666667(B);
+	serialize Len: 14272.360351562(KB); Avg Len: 347.97373809524(B);
+	Time use: {"json_encode":0.94115400314331,"json_decode":1.0933308601379,"serialize":0.92481899261475,"unserialize":0.9511444568634}
+Msgs: 44000
+	Json Len: 9822.8388671875(KB); Avg Len: 228.60425(B);
+	serialize Len: 14955.190429688(KB); Avg Len: 348.04806818182(B);
+	Time use: {"json_encode":0.98412179946899,"json_decode":1.1437253952026,"serialize":0.96748781204224,"unserialize":0.99486970901489}
+Msgs: 46000
+	Json Len: 10266.038085938(KB); Avg Len: 228.53093478261(B);
+	serialize Len: 15629.919921875(KB); Avg Len: 347.93560869565(B);
+	Time use: {"json_encode":1.0277376174927,"json_decode":1.1948745250702,"serialize":1.011684179306,"unserialize":1.0392303466797}
+Msgs: 48000
+	Json Len: 10712.055664062(KB); Avg Len: 228.52385416667(B);
+	serialize Len: 16309.01953125(KB); Avg Len: 347.92575(B);
+	Time use: {"json_encode":1.068754196167,"json_decode":1.2435495853424,"serialize":1.0526201725006,"unserialize":1.0812685489655}
+Msgs: 50000
+	Json Len: 11160.922851562(KB); Avg Len: 228.5757(B);
+	serialize Len: 16992.711914062(KB); Avg Len: 348.01074(B);
+	Time use: {"json_encode":1.1118397712708,"json_decode":1.294095993042,"serialize":1.0958430767059,"unserialize":1.1259415149689}
+Msgs: 52000
+	Json Len: 11608.723632812(KB); Avg Len: 228.60255769231(B);
+	serialize Len: 17674.646484375(KB); Avg Len: 348.05457692308(B);
+	Time use: {"json_encode":1.1551427841187,"json_decode":1.3446528911591,"serialize":1.1385819911957,"unserialize":1.1707377433777}
+Msgs: 54000
+	Json Len: 12057.329101562(KB); Avg Len: 228.64268518519(B);
+	serialize Len: 18357.993164062(KB); Avg Len: 348.12194444444(B);
+	Time use: {"json_encode":1.1981296539307,"json_decode":1.3956072330475,"serialize":1.1814486980438,"unserialize":1.2151484489441}
+Msgs: 56000
+	Json Len: 12506.801757812(KB); Avg Len: 228.69580357143(B);
+	serialize Len: 19042.840820312(KB); Avg Len: 348.21194642857(B);
+	Time use: {"json_encode":1.241348028183,"json_decode":1.4464693069458,"serialize":1.2246918678284,"unserialize":1.2588624954224}
+Msgs: 58000
+	Json Len: 12953.056640625(KB); Avg Len: 228.68844827586(B);
+	serialize Len: 19723.015625(KB); Avg Len: 348.21324137931(B);
+	Time use: {"json_encode":1.2834775447845,"json_decode":1.496111869812,"serialize":1.2671122550964,"unserialize":1.3022925853729}
+Msgs: 60000
+	Json Len: 13397.05078125(KB); Avg Len: 228.643(B);
+	serialize Len: 20399.166992188(KB); Avg Len: 348.14578333333(B);
+	Time use: {"json_encode":1.3255577087402,"json_decode":1.5446517467499,"serialize":1.3084788322449,"unserialize":1.3450982570648}
+Msgs: 62000
+	Json Len: 13848.455078125(KB); Avg Len: 228.72287096774(B);
+	serialize Len: 21086.03515625(KB); Avg Len: 348.25967741935(B);
+	Time use: {"json_encode":1.3676569461823,"json_decode":1.5936996936798,"serialize":1.3500940799713,"unserialize":1.3881335258484}
+Msgs: 64000
+	Json Len: 14290.240234375(KB); Avg Len: 228.64384375(B);
+	serialize Len: 21758.493164062(KB); Avg Len: 348.135890625(B);
+	Time use: {"json_encode":1.4117577075958,"json_decode":1.646213054657,"serialize":1.3945677280426,"unserialize":1.4335517883301}
+Msgs: 66000
+	Json Len: 14737.864257812(KB); Avg Len: 228.6601969697(B);
+	serialize Len: 22439.837890625(KB); Avg Len: 348.15748484848(B);
+	Time use: {"json_encode":1.4567391872406,"json_decode":1.6986026763916,"serialize":1.4396688938141,"unserialize":1.4785776138306}
+Msgs: 68000
+	Json Len: 15184.23828125(KB); Avg Len: 228.65676470588(B);
+	serialize Len: 23119.5546875(KB); Avg Len: 348.15329411765(B);
+	Time use: {"json_encode":1.4995918273926,"json_decode":1.7488522529602,"serialize":1.4821450710297,"unserialize":1.5220789909363}
+Msgs: 70000
+	Json Len: 15628.975585938(KB); Avg Len: 228.62958571429(B);
+	serialize Len: 23796.029296875(KB); Avg Len: 348.10191428571(B);
+	Time use: {"json_encode":1.5435719490051,"json_decode":1.80064702034,"serialize":1.5258033275604,"unserialize":1.5667552947998}
+Msgs: 72000
+	Json Len: 16073.87890625(KB); Avg Len: 228.60627777778(B);
+	serialize Len: 24472.799804688(KB); Avg Len: 348.05759722222(B);
+	Time use: {"json_encode":1.584686756134,"json_decode":1.8487734794617,"serialize":1.5666496753693,"unserialize":1.6088962554932}
+Msgs: 74000
+	Json Len: 16519.458007812(KB); Avg Len: 228.59358108108(B);
+	serialize Len: 25151.10546875(KB); Avg Len: 348.03691891892(B);
+	Time use: {"json_encode":1.6280527114868,"json_decode":1.8991477489471,"serialize":1.6095879077911,"unserialize":1.6528449058533}
+Msgs: 76000
+	Json Len: 16967.530273438(KB); Avg Len: 228.61514473684(B);
+	serialize Len: 25833.544921875(KB); Avg Len: 348.07302631579(B);
+	Time use: {"json_encode":1.6719334125519,"json_decode":1.9505026340485,"serialize":1.6547074317932,"unserialize":1.6981518268585}
+Msgs: 78000
+	Json Len: 17418.1640625(KB); Avg Len: 228.66923076923(B);
+	serialize Len: 26519.504882812(KB); Avg Len: 348.1535(B);
+	Time use: {"json_encode":1.7177729606628,"json_decode":2.0035932064056,"serialize":1.7000594139099,"unserialize":1.74636054039}
+Msgs: 80000
+	Json Len: 17870.0234375(KB); Avg Len: 228.7363(B);
+	serialize Len: 27205.762695312(KB); Avg Len: 348.2337625(B);
+	Time use: {"json_encode":1.7617495059967,"json_decode":2.0548391342163,"serialize":1.7431628704071,"unserialize":1.7911446094513}
+Msgs: 82000
+	Json Len: 18317.711914062(KB); Avg Len: 228.74801219512(B);
+	serialize Len: 27887.201171875(KB); Avg Len: 348.24992682927(B);
+	Time use: {"json_encode":1.8057715892792,"json_decode":2.1066982746124,"serialize":1.7870287895203,"unserialize":1.8364748954773}
+Msgs: 84000
+	Json Len: 18769.223632812(KB); Avg Len: 228.80577380952(B);
+	serialize Len: 28574.370117188(KB); Avg Len: 348.33517857143(B);
+	Time use: {"json_encode":1.8481848239899,"json_decode":2.1566886901855,"serialize":1.8296146392822,"unserialize":1.8800299167633}
+Msgs: 86000
+	Json Len: 19209.852539062(KB); Avg Len: 228.73126744186(B);
+	serialize Len: 29245.135742188(KB); Avg Len: 348.22115116279(B);
+	Time use: {"json_encode":1.8950839042664,"json_decode":2.2123649120331,"serialize":1.8769216537476,"unserialize":1.9291834831238}
+Msgs: 88000
+	Json Len: 19658.15234375(KB); Avg Len: 228.74940909091(B);
+	serialize Len: 29927.556640625(KB); Avg Len: 348.24793181818(B);
+	Time use: {"json_encode":1.9484848976135,"json_decode":2.2787263393402,"serialize":1.9303300380707,"unserialize":1.985315322876}
+Msgs: 90000
+	Json Len: 20104.409179688(KB); Avg Len: 228.7435(B);
+	serialize Len: 30607.428710938(KB); Avg Len: 348.24452222222(B);
+	Time use: {"json_encode":2.0046248435974,"json_decode":2.3436350822449,"serialize":1.9849009513855,"unserialize":2.0431225299835}
+Msgs: 92000
+	Json Len: 20552.104492188(KB); Avg Len: 228.75385869565(B);
+	serialize Len: 31289.362304688(KB); Avg Len: 348.26420652174(B);
+	Time use: {"json_encode":2.0573263168335,"json_decode":2.4069647789001,"serialize":2.038370847702,"unserialize":2.1008725166321}
+Msgs: 94000
+	Json Len: 20993.443359375(KB); Avg Len: 228.69453191489(B);
+	serialize Len: 31960.595703125(KB); Avg Len: 348.1664893617(B);
+	Time use: {"json_encode":2.1097049713135,"json_decode":2.4744184017181,"serialize":2.0917224884033,"unserialize":2.1591880321503}
+Msgs: 96000
+	Json Len: 21441.287109375(KB); Avg Len: 228.7070625(B);
+	serialize Len: 32641.87890625(KB); Avg Len: 348.18004166667(B);
+	Time use: {"json_encode":2.1656069755554,"json_decode":2.5397989749908,"serialize":2.1448097229004,"unserialize":2.2167627811432}
+Msgs: 98000
+	Json Len: 21889.186523438(KB); Avg Len: 228.71966326531(B);
+	serialize Len: 33324.03125(KB); Avg Len: 348.20212244898(B);
+	Time use: {"json_encode":2.2070372104645,"json_decode":2.58855676651,"serialize":2.1860747337341,"unserialize":2.2596027851105}
+Msgs: 100000
+	Json Len: 22341.373046875(KB); Avg Len: 228.77566(B);
+	serialize Len: 34011.821289062(KB); Avg Len: 348.28105(B);
+	Time use: {"json_encode":2.2540438175201,"json_decode":2.6433579921722,"serialize":2.2325432300568,"unserialize":2.3072714805603}
+Msgs: 102000
+	Json Len: 22789.096679688(KB); Avg Len: 228.78465686275(B);
+	serialize Len: 34692.936523438(KB); Avg Len: 348.28987254902(B);
+	Time use: {"json_encode":2.2981526851654,"json_decode":2.694760799408,"serialize":2.2762744426727,"unserialize":2.3520882129669}
+Msgs: 104000
+	Json Len: 23235.015625(KB); Avg Len: 228.77553846154(B);
+	serialize Len: 35371.768554688(KB); Avg Len: 348.275875(B);
+	Time use: {"json_encode":2.3416967391968,"json_decode":2.7464394569397,"serialize":2.3198330402374,"unserialize":2.3967356681824}
+Msgs: 106000
+	Json Len: 23680.372070312(KB); Avg Len: 228.76133018868(B);
+	serialize Len: 36049.46484375(KB); Avg Len: 348.25143396226(B);
+	Time use: {"json_encode":2.384001493454,"json_decode":2.7966992855072,"serialize":2.3618001937866,"unserialize":2.44029545784}
+Msgs: 108000
+	Json Len: 24126.442382812(KB); Avg Len: 228.75441666667(B);
+	serialize Len: 36728.5703125(KB); Avg Len: 348.24125925926(B);
+	Time use: {"json_encode":2.4268503189087,"json_decode":2.8467829227448,"serialize":2.4044671058655,"unserialize":2.483856678009}
+Msgs: 110000
+	Json Len: 24572.793945312(KB); Avg Len: 228.75037272727(B);
+	serialize Len: 37409.0234375(KB); Avg Len: 348.244(B);
+	Time use: {"json_encode":2.468635559082,"json_decode":2.8959009647369,"serialize":2.4459955692291,"unserialize":2.5269083976746}
+Msgs: 112000
+	Json Len: 25017.19140625(KB); Avg Len: 228.72860714286(B);
+	serialize Len: 38086.004882812(KB); Avg Len: 348.21490178571(B);
+	Time use: {"json_encode":2.5118055343628,"json_decode":2.9469819068909,"serialize":2.4892199039459,"unserialize":2.5712065696716}
+Msgs: 114000
+	Json Len: 25469.374023438(KB); Avg Len: 228.77753508772(B);
+	serialize Len: 38773.854492188(KB); Avg Len: 348.28444736842(B);
+	Time use: {"json_encode":2.5564856529236,"json_decode":2.9993557929993,"serialize":2.5341784954071,"unserialize":2.6171598434448}
+Msgs: 116000
+	Json Len: 25918.991210938(KB); Avg Len: 228.80212931034(B);
+	serialize Len: 39458.584960938(KB); Avg Len: 348.32406034483(B);
+	Time use: {"json_encode":2.5991394519806,"json_decode":3.0496306419373,"serialize":2.5768387317657,"unserialize":2.6614487171173}
+Msgs: 118000
+	Json Len: 26359.42578125(KB); Avg Len: 228.74620338983(B);
+	serialize Len: 40129.1484375(KB); Avg Len: 348.23938983051(B);
+	Time use: {"json_encode":2.6411027908325,"json_decode":3.0989956855774,"serialize":2.6184754371643,"unserialize":2.7043013572693}
+Msgs: 120000
+	Json Len: 26802.169921875(KB); Avg Len: 228.71185(B);
+	serialize Len: 40803.64453125(KB); Avg Len: 348.1911(B);
+	Time use: {"json_encode":2.6847295761108,"json_decode":3.1508760452271,"serialize":2.6627879142761,"unserialize":2.74942445755}
+Msgs: 122000
+	Json Len: 27249.502929688(KB); Avg Len: 228.71713934426(B);
+	serialize Len: 41484.797851562(KB); Avg Len: 348.2002704918(B);
+	Time use: {"json_encode":2.7290871143341,"json_decode":3.2035112380981,"serialize":2.7069637775421,"unserialize":2.7948796749115}
+Msgs: 124000
+	Json Len: 27689.344726562(KB); Avg Len: 228.66039516129(B);
+	serialize Len: 42153.96875(KB); Avg Len: 348.11019354839(B);
+	Time use: {"json_encode":2.775979757309,"json_decode":3.2566895484924,"serialize":2.7532162666321,"unserialize":2.8417549133301}
+Msgs: 126000
+	Json Len: 28139.891601562(KB); Avg Len: 228.69245238095(B);
+	serialize Len: 42839.369140625(KB); Avg Len: 348.15487301587(B);
+	Time use: {"json_encode":2.8179097175598,"json_decode":3.3056819438934,"serialize":2.7946882247925,"unserialize":2.8843977451324}
+Msgs: 128000
+	Json Len: 28588.251953125(KB); Avg Len: 228.706015625(B);
+	serialize Len: 43522.038085938(KB); Avg Len: 348.1763046875(B);
+	Time use: {"json_encode":2.8620855808258,"json_decode":3.357173204422,"serialize":2.8385524749756,"unserialize":2.9290308952332}
+Msgs: 130000
+	Json Len: 29036.073242188(KB); Avg Len: 228.71491538462(B);
+	serialize Len: 44203.401367188(KB); Avg Len: 348.18679230769(B);
+	Time use: {"json_encode":2.9046220779419,"json_decode":3.4073560237885,"serialize":2.8808598518372,"unserialize":2.9723963737488}
+Msgs: 132000
+	Json Len: 29484.640625(KB); Avg Len: 228.72933333333(B);
+	serialize Len: 44886.340820312(KB); Avg Len: 348.20918939394(B);
+	Time use: {"json_encode":2.9497525691986,"json_decode":3.4605419635773,"serialize":2.9259736537933,"unserialize":3.0194952487946}
+Msgs: 134000
+	Json Len: 29927.015625(KB); Avg Len: 228.696(B);
+	serialize Len: 45560.875976562(KB); Avg Len: 348.16669402985(B);
+	Time use: {"json_encode":2.9924099445343,"json_decode":3.5107996463776,"serialize":2.968207359314,"unserialize":3.0630779266357}
+Msgs: 136000
+	Json Len: 30373.561523438(KB); Avg Len: 228.69505147059(B);
+	serialize Len: 46240.569335938(KB); Avg Len: 348.16428676471(B);
+	Time use: {"json_encode":3.0382699966431,"json_decode":3.5644476413727,"serialize":3.0140433311462,"unserialize":3.1110398769379}
+Msgs: 138000
+	Json Len: 30823.044921875(KB); Avg Len: 228.71592753623(B);
+	serialize Len: 46924.823242188(KB); Avg Len: 348.19578985507(B);
+	Time use: {"json_encode":3.081903219223,"json_decode":3.6166243553162,"serialize":3.0581948757172,"unserialize":3.156327009201}
+Msgs: 140000
+	Json Len: 31262.763671875(KB); Avg Len: 228.66478571429(B);
+	serialize Len: 47595.673828125(KB); Avg Len: 348.12835714286(B);
+	Time use: {"json_encode":3.1265125274658,"json_decode":3.6692337989807,"serialize":3.1020658016205,"unserialize":3.2021758556366}
+Msgs: 142000
+	Json Len: 31711.34765625(KB); Avg Len: 228.67901408451(B);
+	serialize Len: 48278.591796875(KB); Avg Len: 348.14984507042(B);
+	Time use: {"json_encode":3.1710255146027,"json_decode":3.721268415451,"serialize":3.14586353302,"unserialize":3.2474660873413}
+Msgs: 144000
+	Json Len: 32158.439453125(KB); Avg Len: 228.68223611111(B);
+	serialize Len: 48959.311523438(KB); Avg Len: 348.15510416667(B);
+	Time use: {"json_encode":3.2176034450531,"json_decode":3.7736284732819,"serialize":3.1907334327698,"unserialize":3.2937819957733}
+Msgs: 146000
+	Json Len: 32605.509765625(KB); Avg Len: 228.68521917808(B);
+	serialize Len: 49641.017578125(KB); Avg Len: 348.1671369863(B);
+	Time use: {"json_encode":3.2610385417938,"json_decode":3.8245799541473,"serialize":3.2341027259827,"unserialize":3.3391439914703}
+Msgs: 148000
+	Json Len: 33053.505859375(KB); Avg Len: 228.69452702703(B);
+	serialize Len: 50322.268554688(KB); Avg Len: 348.17569594595(B);
+	Time use: {"json_encode":3.3044731616974,"json_decode":3.8761925697327,"serialize":3.2776474952698,"unserialize":3.3838398456573}
+Msgs: 150000
+	Json Len: 33497.5546875(KB); Avg Len: 228.67664(B);
+	serialize Len: 50998.3359375(KB); Avg Len: 348.14864(B);
+	Time use: {"json_encode":3.3507995605469,"json_decode":3.9285311698914,"serialize":3.3230149745941,"unserialize":3.4303612709045}
+Msgs: 152000
+	Json Len: 33939.935546875(KB); Avg Len: 228.64798684211(B);
+	serialize Len: 51672.83984375(KB); Avg Len: 348.11176315789(B);
+	Time use: {"json_encode":3.3928873538971,"json_decode":3.9780895709991,"serialize":3.3652563095093,"unserialize":3.4741289615631}
+Msgs: 154000
+	Json Len: 34383.555664062(KB); Avg Len: 228.62831818182(B);
+	serialize Len: 52347.771484375(KB); Avg Len: 348.07868831169(B);
+	Time use: {"json_encode":3.4372954368591,"json_decode":4.0300221443176,"serialize":3.4099621772766,"unserialize":3.5196912288666}
+Msgs: 156000
+	Json Len: 34831.189453125(KB); Avg Len: 228.6355(B);
+	serialize Len: 53029.423828125(KB); Avg Len: 348.09057692308(B);
+	Time use: {"json_encode":3.4792983531952,"json_decode":4.0799474716187,"serialize":3.4522678852081,"unserialize":3.5627207756042}
+Msgs: 158000
+	Json Len: 35274.436523438(KB); Avg Len: 228.61406962025(B);
+	serialize Len: 53705.21484375(KB); Avg Len: 348.06417721519(B);
+	Time use: {"json_encode":3.5226495265961,"json_decode":4.1307754516602,"serialize":3.4952602386475,"unserialize":3.6084973812103}
+Msgs: 160000
+	Json Len: 35723.091796875(KB); Avg Len: 228.6277875(B);
+	serialize Len: 54387.854492188(KB); Avg Len: 348.08226875(B);
+	Time use: {"json_encode":3.5658724308014,"json_decode":4.181174993515,"serialize":3.5378541946411,"unserialize":3.6530048847198}
+Msgs: 162000
+	Json Len: 36171.556640625(KB); Avg Len: 228.63996296296(B);
+	serialize Len: 55070.485351562(KB); Avg Len: 348.09985802469(B);
+	Time use: {"json_encode":3.6100442409515,"json_decode":4.2318933010101,"serialize":3.5811214447021,"unserialize":3.6969954967499}
+Msgs: 164000
+	Json Len: 36619.166015625(KB); Avg Len: 228.6465(B);
+	serialize Len: 55752.052734375(KB); Avg Len: 348.11037804878(B);
+	Time use: {"json_encode":3.652055978775,"json_decode":4.2809793949127,"serialize":3.6227245330811,"unserialize":3.7397055625916}
+Msgs: 166000
+	Json Len: 37070.237304688(KB); Avg Len: 228.67423493976(B);
+	serialize Len: 56437.6796875(KB); Avg Len: 348.14568674699(B);
+	Time use: {"json_encode":3.6933805942535,"json_decode":4.329864025116,"serialize":3.6642310619354,"unserialize":3.7848391532898}
+Msgs: 168000
+	Json Len: 37519.055664062(KB); Avg Len: 228.68757738095(B);
+	serialize Len: 57121.151367188(KB); Avg Len: 348.16701785714(B);
+	Time use: {"json_encode":3.7375349998474,"json_decode":4.3818185329437,"serialize":3.7082579135895,"unserialize":3.8299870491028}
+Msgs: 170000
+	Json Len: 37968.650390625(KB); Avg Len: 228.70528235294(B);
+	serialize Len: 57805.00390625(KB); Avg Len: 348.19014117647(B);
+	Time use: {"json_encode":3.7810115814209,"json_decode":4.4329838752747,"serialize":3.7517685890198,"unserialize":3.8750576972961}
+Msgs: 172000
+	Json Len: 38421.051757812(KB); Avg Len: 228.73928488372(B);
+	serialize Len: 58493.520507812(KB); Avg Len: 348.24049418605(B);
+	Time use: {"json_encode":3.8273792266846,"json_decode":4.5144057273865,"serialize":3.842696428299,"unserialize":3.9228668212891}
+Msgs: 174000
+	Json Len: 38869.026367188(KB); Avg Len: 228.74645402299(B);
+	serialize Len: 59175.639648438(KB); Avg Len: 348.25204022989(B);
+	Time use: {"json_encode":3.8700020313263,"json_decode":4.565185546875,"serialize":3.8854541778564,"unserialize":3.9671392440796}
+Msgs: 176000
+	Json Len: 39319.287109375(KB); Avg Len: 228.76676136364(B);
+	serialize Len: 59861.317382812(KB); Avg Len: 348.28402840909(B);
+	Time use: {"json_encode":3.9126470088959,"json_decode":4.6159062385559,"serialize":3.9279565811157,"unserialize":4.0110321044922}
+Msgs: 178000
+	Json Len: 39768.7734375(KB); Avg Len: 228.78215730337(B);
+	serialize Len: 60545.376953125(KB); Avg Len: 348.30598876404(B);
+	Time use: {"json_encode":3.9578280448914,"json_decode":4.6693332195282,"serialize":3.9733476638794,"unserialize":4.057667016983}
+Msgs: 180000
+	Json Len: 40218.078125(KB); Avg Len: 228.79617777778(B);
+	serialize Len: 61229.5546875(KB); Avg Len: 348.32813333333(B);
+	Time use: {"json_encode":4.0008156299591,"json_decode":4.7192723751068,"serialize":4.017626285553,"unserialize":4.1589500904083}
+Msgs: 182000
+	Json Len: 40669.6875(KB); Avg Len: 228.82285714286(B);
+	serialize Len: 61916.265625(KB); Avg Len: 348.36404395604(B);
+	Time use: {"json_encode":4.0458030700684,"json_decode":4.7963156700134,"serialize":4.0623865127563,"unserialize":4.2045207023621}
+Msgs: 184000
+	Json Len: 41117.794921875(KB); Avg Len: 228.8294673913(B);
+	serialize Len: 62599.010742188(KB); Avg Len: 348.37710326087(B);
+	Time use: {"json_encode":4.089474439621,"json_decode":4.8474614620209,"serialize":4.1059339046478,"unserialize":4.2493090629578}
+Msgs: 186000
+	Json Len: 41562.033203125(KB); Avg Len: 228.8146344086(B);
+	serialize Len: 63274.744140625(KB); Avg Len: 348.35127956989(B);
+	Time use: {"json_encode":4.1321129798889,"json_decode":4.928543806076,"serialize":4.1483416557312,"unserialize":4.2927186489105}
+Msgs: 188000
+	Json Len: 42008.359375(KB); Avg Len: 228.8114893617(B);
+	serialize Len: 63954.264648438(KB); Avg Len: 348.34663297872(B);
+	Time use: {"json_encode":4.1748063564301,"json_decode":4.9786815643311,"serialize":4.1909430027008,"unserialize":4.3366096019745}
+Msgs: 190000
+	Json Len: 42453.3359375(KB); Avg Len: 228.80113684211(B);
+	serialize Len: 64632.274414062(KB); Avg Len: 348.33394210526(B);
+	Time use: {"json_encode":4.216392993927,"json_decode":5.0276682376862,"serialize":4.2329039573669,"unserialize":4.3797791004181}
+Msgs: 192000
+	Json Len: 42899.94140625(KB); Avg Len: 228.7996875(B);
+	serialize Len: 65312.623046875(KB); Avg Len: 348.33398958333(B);
+	Time use: {"json_encode":4.2583191394806,"json_decode":5.0766537189484,"serialize":4.2745108604431,"unserialize":4.422534942627}
+Msgs: 194000
+	Json Len: 43345.630859375(KB); Avg Len: 228.79343298969(B);
+	serialize Len: 65991.515625(KB); Avg Len: 348.32635051546(B);
+	Time use: {"json_encode":4.3026874065399,"json_decode":5.1285886764526,"serialize":4.3185889720917,"unserialize":4.4675152301788}
+Msgs: 196000
+	Json Len: 43792.58203125(KB); Avg Len: 228.79389795918(B);
+	serialize Len: 66672.109375(KB); Avg Len: 348.32775510204(B);
+	Time use: {"json_encode":4.3452093601227,"json_decode":5.1788809299469,"serialize":4.3607861995697,"unserialize":4.5111231803894}
+Msgs: 198000
+	Json Len: 44237.935546875(KB); Avg Len: 228.78609090909(B);
+	serialize Len: 67350.081054688(KB); Avg Len: 348.31557070707(B);
+	Time use: {"json_encode":4.3877761363983,"json_decode":5.2287352085114,"serialize":4.4035148620605,"unserialize":4.5543184280396}
+Msgs: 200000
+	Json Len: 44684.125976562(KB); Avg Len: 228.782725(B);
+	serialize Len: 68029.625(KB); Avg Len: 348.31168(B);
+	Time use: {"json_encode":4.4309148788452,"json_decode":5.2796063423157,"serialize":4.4462890625,"unserialize":4.5984416007996}
+Msgs: 202000
+	Json Len: 45127.2890625(KB); Avg Len: 228.76407920792(B);
+	serialize Len: 68704.818359375(KB); Avg Len: 348.28581188119(B);
+	Time use: {"json_encode":4.4729640483856,"json_decode":5.3291826248169,"serialize":4.4881887435913,"unserialize":4.6411876678467}
+Msgs: 204000
+	Json Len: 45573.03125(KB); Avg Len: 228.75874509804(B);
+	serialize Len: 69383.125(KB); Avg Len: 348.27607843137(B);
+	Time use: {"json_encode":4.5165231227875,"json_decode":5.3806343078613,"serialize":4.5320763587952,"unserialize":4.6855776309967}
+Msgs: 206000
+	Json Len: 46018.10546875(KB); Avg Len: 228.75019417476(B);
+	serialize Len: 70061.435546875(KB); Avg Len: 348.26655339806(B);
+	Time use: {"json_encode":4.563836812973,"json_decode":5.4347972869873,"serialize":4.578839302063,"unserialize":4.7336592674255}
+Msgs: 208000
+	Json Len: 46461.86328125(KB); Avg Len: 228.73532692308(B);
+	serialize Len: 70737.327148438(KB); Avg Len: 348.24530288462(B);
+	Time use: {"json_encode":4.6073327064514,"json_decode":5.485303401947,"serialize":4.6222329139709,"unserialize":4.7779819965363}
+Msgs: 210000
+	Json Len: 46909.158203125(KB); Avg Len: 228.73799047619(B);
+	serialize Len: 71418.602539062(KB); Avg Len: 348.25070952381(B);
+	Time use: {"json_encode":4.6500160694122,"json_decode":5.5355648994446,"serialize":4.6648225784302,"unserialize":4.8222053050995}
+Msgs: 212000
+	Json Len: 47353.969726562(KB); Avg Len: 228.72860849057(B);
+	serialize Len: 72096.674804688(KB); Avg Len: 348.24054245283(B);
+	Time use: {"json_encode":4.695198059082,"json_decode":5.5877587795258,"serialize":4.7090091705322,"unserialize":4.8679146766663}
+Msgs: 214000
+	Json Len: 47803.749023438(KB); Avg Len: 228.7431728972(B);
+	serialize Len: 72781.385742188(KB); Avg Len: 348.2623317757(B);
+	Time use: {"json_encode":4.7381663322449,"json_decode":5.6393866539001,"serialize":4.7520887851715,"unserialize":4.9121568202972}
+Msgs: 216000
+	Json Len: 48247.638671875(KB); Avg Len: 228.7295462963(B);
+	serialize Len: 73456.354492188(KB); Avg Len: 348.23753240741(B);
+	Time use: {"json_encode":4.7805459499359,"json_decode":5.6889116764069,"serialize":4.794326543808,"unserialize":4.9558317661285}
+Msgs: 218000
+	Json Len: 48689.008789062(KB); Avg Len: 228.70433486239(B);
+	serialize Len: 74128.841796875(KB); Avg Len: 348.20153211009(B);
+	Time use: {"json_encode":4.8256850242615,"json_decode":5.7420134544373,"serialize":4.8394799232483,"unserialize":5.0499672889709}
+Msgs: 220000
+	Json Len: 49138.526367188(KB); Avg Len: 228.71750454545(B);
+	serialize Len: 74812.370117188(KB); Avg Len: 348.21757727273(B);
+	Time use: {"json_encode":4.8682427406311,"json_decode":5.792120218277,"serialize":4.8818526268005,"unserialize":5.0933983325958}
+Msgs: 222000
+	Json Len: 49582.932617188(KB); Avg Len: 228.70686036036(B);
+	serialize Len: 75488.592773438(KB); Avg Len: 348.19963513514(B);
+	Time use: {"json_encode":4.9130265712738,"json_decode":5.8452243804932,"serialize":4.9270658493042,"unserialize":5.1393029689789}
+
+-------------------Result-----------------
+Msgs: 223520
+Json Len49924.879882812(KB); Avg: 228.71813260558(B);
+serialize Len76009.284179688(KB); Avg: 348.21719309234(B);
+{"json_encode":4.9483423233032,"json_decode":5.888843536377,"serialize":4.9637322425842,"unserialize":5.1768445968628}
+2015-03-26 15:11:24 /Users/dushengchen/work/git/kt/rabbitmq/demo/user.log
+-------------------end-----------------
+-----------------start---------------
+2015-03-26 15:11:29 /Users/dushengchen/work/git/kt/rabbitmq/demo/post.log
+Msgs: 2000
+	Json Len: 7814.123046875(KB); Avg Len: 4000.831(B);
+	serialize Len: 8693.9833984375(KB); Avg Len: 4451.3195(B);
+	Time use: {"json_encode":0.17546653747559,"json_decode":0.21288514137268,"serialize":0.083945989608765,"unserialize":0.08460521697998}
+Msgs: 4000
+	Json Len: 15632.952148438(KB); Avg Len: 4002.03575(B);
+	serialize Len: 17393.141601562(KB); Avg Len: 4452.64425(B);
+	Time use: {"json_encode":0.35323762893677,"json_decode":0.4199903011322,"serialize":0.1688232421875,"unserialize":0.17076253890991}
+Msgs: 6000
+	Json Len: 23372.333984375(KB); Avg Len: 3988.8783333333(B);
+	serialize Len: 26025.676757812(KB); Avg Len: 4441.7155(B);
+	Time use: {"json_encode":0.53305983543396,"json_decode":0.62916159629822,"serialize":0.25470757484436,"unserialize":0.25961565971375}
+Msgs: 8000
+	Json Len: 31162.19921875(KB); Avg Len: 3988.7615(B);
+	serialize Len: 34701.334960938(KB); Avg Len: 4441.770875(B);
+	Time use: {"json_encode":0.71207404136658,"json_decode":0.8351149559021,"serialize":0.33843612670898,"unserialize":0.34513735771179}
+Msgs: 10000
+	Json Len: 38948.5625(KB); Avg Len: 3988.3328(B);
+	serialize Len: 43377.684570312(KB); Avg Len: 4441.8749(B);
+	Time use: {"json_encode":0.89471578598022,"json_decode":1.046510219574,"serialize":0.42581391334534,"unserialize":0.43604683876038}
+Msgs: 12000
+	Json Len: 46827.875976562(KB); Avg Len: 3995.97875(B);
+	serialize Len: 52127.98828125(KB); Avg Len: 4448.255(B);
+	Time use: {"json_encode":1.0719621181488,"json_decode":1.2530946731567,"serialize":0.50904178619385,"unserialize":0.52134275436401}
+Msgs: 14000
+	Json Len: 54812.729492188(KB); Avg Len: 4009.1596428571(B);
+	serialize Len: 60976.30078125(KB); Avg Len: 4459.9808571429(B);
+	Time use: {"json_encode":1.2596201896667,"json_decode":1.4710590839386,"serialize":0.62575531005859,"unserialize":0.61334156990051}
+Msgs: 16000
+	Json Len: 62639.979492188(KB); Avg Len: 4008.9586875(B);
+	serialize Len: 69687.17578125(KB); Avg Len: 4459.97925(B);
+	Time use: {"json_encode":1.4394595623016,"json_decode":1.6805429458618,"serialize":0.71164727210999,"unserialize":0.70122861862183}
+Msgs: 18000
+	Json Len: 70492.020507812(KB); Avg Len: 4010.2127222222(B);
+	serialize Len: 78416.104492188(KB); Avg Len: 4461.0050555556(B);
+	Time use: {"json_encode":1.6201655864716,"json_decode":1.8902227878571,"serialize":0.7980854511261,"unserialize":0.78961777687073}
+Msgs: 20000
+	Json Len: 78319.782226562(KB); Avg Len: 4009.97285(B);
+	serialize Len: 87124.981445312(KB); Avg Len: 4460.79905(B);
+	Time use: {"json_encode":1.8059251308441,"json_decode":2.1320583820343,"serialize":0.90999150276184,"unserialize":0.92886090278625}
+Msgs: 22000
+	Json Len: 86197.840820312(KB); Avg Len: 4012.1176818182(B);
+	serialize Len: 95881.231445312(KB); Avg Len: 4462.8355(B);
+	Time use: {"json_encode":1.9911327362061,"json_decode":2.3417136669159,"serialize":0.99623036384583,"unserialize":1.1276376247406}
+Msgs: 24000
+	Json Len: 94036.202148438(KB); Avg Len: 4012.2112916667(B);
+	serialize Len: 104598.54980469(KB); Avg Len: 4462.8714583333(B);
+	Time use: {"json_encode":2.1801834106445,"json_decode":2.5536170005798,"serialize":1.0832872390747,"unserialize":1.2178494930267}
+Msgs: 26000
+	Json Len: 101772.3125(KB); Avg Len: 4008.2633846154(B);
+	serialize Len: 113227.72949219(KB); Avg Len: 4459.4305769231(B);
+	Time use: {"json_encode":2.3562254905701,"json_decode":2.7587828636169,"serialize":1.167914390564,"unserialize":1.3041927814484}
+Msgs: 28000
+	Json Len: 109619.8515625(KB); Avg Len: 4008.9545714286(B);
+	serialize Len: 121952.03417969(KB); Avg Len: 4459.9601071429(B);
+	Time use: {"json_encode":2.5353212356567,"json_decode":2.9666800498962,"serialize":1.2530126571655,"unserialize":1.3938436508179}
+Msgs: 30000
+	Json Len: 117437.81347656(KB); Avg Len: 4008.5440333333(B);
+	serialize Len: 130648.67089844(KB); Avg Len: 4459.4746333333(B);
+	Time use: {"json_encode":2.7505073547363,"json_decode":3.2114169597626,"serialize":1.4114673137665,"unserialize":1.4989380836487}
+Msgs: 32000
+	Json Len: 125254.66015625(KB); Avg Len: 4008.149125(B);
+	serialize Len: 139347.9765625(KB); Avg Len: 4459.13525(B);
+	Time use: {"json_encode":2.9326004981995,"json_decode":3.4227936267853,"serialize":1.4996018409729,"unserialize":1.5916457176208}
+Msgs: 34000
+	Json Len: 133022.28417969(KB); Avg Len: 4006.3182058824(B);
+	serialize Len: 148004.02050781(KB); Avg Len: 4457.5328529412(B);
+	Time use: {"json_encode":3.1373581886292,"json_decode":3.6498265266418,"serialize":1.609283208847,"unserialize":1.691730260849}
+Msgs: 36000
+	Json Len: 140872.44140625(KB); Avg Len: 4007.0383333333(B);
+	serialize Len: 156725.06347656(KB); Avg Len: 4457.9573611111(B);
+	Time use: {"json_encode":3.3232083320618,"json_decode":3.864321231842,"serialize":1.6977548599243,"unserialize":1.783792257309}
+Msgs: 38000
+	Json Len: 148678.55371094(KB); Avg Len: 4006.4957631579(B);
+	serialize Len: 165413.25585938(KB); Avg Len: 4457.4519473684(B);
+	Time use: {"json_encode":3.5012881755829,"json_decode":4.0729880332947,"serialize":1.7822833061218,"unserialize":1.8701748847961}
+Msgs: 40000
+	Json Len: 156516.52050781(KB); Avg Len: 4006.822925(B);
+	serialize Len: 174129.91308594(KB); Avg Len: 4457.725775(B);
+	Time use: {"json_encode":3.6809682846069,"json_decode":4.2819221019745,"serialize":1.8681621551514,"unserialize":1.9571118354797}
+Msgs: 42000
+	Json Len: 164253.47460938(KB); Avg Len: 4004.6561428571(B);
+	serialize Len: 182763.51171875(KB); Avg Len: 4455.9484761905(B);
+	Time use: {"json_encode":3.85861992836,"json_decode":4.4884762763977,"serialize":1.9547040462494,"unserialize":2.0464162826538}
+Msgs: 44000
+	Json Len: 172066.03222656(KB); Avg Len: 4004.4458409091(B);
+	serialize Len: 191458.79003906(KB); Avg Len: 4455.7682045455(B);
+	Time use: {"json_encode":4.0517027378082,"json_decode":4.7136416435242,"serialize":2.0505974292755,"unserialize":2.1459355354309}
+Msgs: 46000
+	Json Len: 179842.90820312(KB); Avg Len: 4003.4595217391(B);
+	serialize Len: 200125.62207031(KB); Avg Len: 4454.9703695652(B);
+	Time use: {"json_encode":4.2320716381073,"json_decode":4.9313681125641,"serialize":2.1404550075531,"unserialize":2.2393774986267}
+Msgs: 48000
+	Json Len: 187613.734375(KB); Avg Len: 4002.4263333333(B);
+	serialize Len: 208787.71875(KB); Avg Len: 4454.138(B);
+	Time use: {"json_encode":4.4229769706726,"json_decode":5.1557312011719,"serialize":2.235958814621,"unserialize":2.338770866394}
+Msgs: 50000
+	Json Len: 195476.6328125(KB); Avg Len: 4003.36144(B);
+	serialize Len: 217528.4296875(KB); Avg Len: 4454.98224(B);
+	Time use: {"json_encode":4.6194674968719,"json_decode":5.3928527832031,"serialize":2.3461093902588,"unserialize":2.4395098686218}
+Msgs: 52000
+	Json Len: 203328.49707031(KB); Avg Len: 4004.0073269231(B);
+	serialize Len: 226257.46777344(KB); Avg Len: 4455.5316730769(B);
+	Time use: {"json_encode":4.7989566326141,"json_decode":5.5998389720917,"serialize":2.4306831359863,"unserialize":2.5267825126648}
+Msgs: 54000
+	Json Len: 211162.12207031(KB); Avg Len: 4004.2595(B);
+	serialize Len: 234969.74023438(KB); Avg Len: 4455.7224814815(B);
+	Time use: {"json_encode":4.9817605018616,"json_decode":5.8122899532318,"serialize":2.517865896225,"unserialize":2.6155121326447}
+Msgs: 56000
+	Json Len: 218822.55859375(KB); Avg Len: 4001.3267857143(B);
+	serialize Len: 243530.62207031(KB); Avg Len: 4453.131375(B);
+	Time use: {"json_encode":5.1579887866974,"json_decode":6.0165803432465,"serialize":2.6029300689697,"unserialize":2.7015900611877}
+Msgs: 58000
+	Json Len: 226490.46386719(KB); Avg Len: 3998.7281896552(B);
+	serialize Len: 252097.43457031(KB); Avg Len: 4450.8236724138(B);
+	Time use: {"json_encode":5.3387250900269,"json_decode":6.2260935306549,"serialize":2.6895761489868,"unserialize":2.790783405304}
+Msgs: 60000
+	Json Len: 234217.86816406(KB); Avg Len: 3997.3182833333(B);
+	serialize Len: 260717.51660156(KB); Avg Len: 4449.57895(B);
+	Time use: {"json_encode":5.5141229629517,"json_decode":6.431291103363,"serialize":2.773609161377,"unserialize":2.8768720626831}
+Msgs: 62000
+	Json Len: 241910.19042969(KB); Avg Len: 3995.4199193548(B);
+	serialize Len: 269307.33886719(KB); Avg Len: 4447.9147580645(B);
+	Time use: {"json_encode":5.6927309036255,"json_decode":6.6380610466003,"serialize":2.8598556518555,"unserialize":2.9644629955292}
+Msgs: 64000
+	Json Len: 249634.3359375(KB); Avg Len: 3994.149375(B);
+	serialize Len: 277914.18652344(KB); Avg Len: 4446.626984375(B);
+	Time use: {"json_encode":5.8713636398315,"json_decode":6.8474860191345,"serialize":2.9483511447906,"unserialize":3.0900173187256}
+Msgs: 66000
+	Json Len: 257366.63867188(KB); Avg Len: 3993.0823939394(B);
+	serialize Len: 286536.59667969(KB); Avg Len: 4445.6587121212(B);
+	Time use: {"json_encode":6.0958139896393,"json_decode":7.1544938087463,"serialize":3.1110081672668,"unserialize":3.2273964881897}
+Msgs: 68000
+	Json Len: 265082.9296875(KB); Avg Len: 3991.8370588235(B);
+	serialize Len: 295146.44824219(KB); Avg Len: 4444.5582794118(B);
+	Time use: {"json_encode":6.3217635154724,"json_decode":7.4270007610321,"serialize":3.2358739376068,"unserialize":3.3681657314301}
+Msgs: 70000
+	Json Len: 272871.46679688(KB); Avg Len: 3991.7197428571(B);
+	serialize Len: 303821.38867188(KB); Avg Len: 4444.4728857143(B);
+	Time use: {"json_encode":6.5084013938904,"json_decode":7.644223690033,"serialize":3.3266711235046,"unserialize":3.4618871212006}
+Msgs: 72000
+	Json Len: 280650.49804688(KB); Avg Len: 3991.47375(B);
+	serialize Len: 312481.53027344(KB); Avg Len: 4444.1817638889(B);
+	Time use: {"json_encode":6.6917927265167,"json_decode":7.858681678772,"serialize":3.4157867431641,"unserialize":3.5557045936584}
+Msgs: 74000
+	Json Len: 288318.43847656(KB); Avg Len: 3989.7037972973(B);
+	serialize Len: 321046.65332031(KB); Avg Len: 4442.591527027(B);
+	Time use: {"json_encode":6.8861451148987,"json_decode":8.0893635749817,"serialize":3.5113093852997,"unserialize":3.6576511859894}
+Msgs: 76000
+	Json Len: 296061.40722656(KB); Avg Len: 3989.0379078947(B);
+	serialize Len: 329674.41992188(KB); Avg Len: 4441.9290263158(B);
+	Time use: {"json_encode":7.0603427886963,"json_decode":8.2914848327637,"serialize":3.5946714878082,"unserialize":3.7432060241699}
+Msgs: 78000
+	Json Len: 303831.74511719(KB); Avg Len: 3988.765474359(B);
+	serialize Len: 338331.65332031(KB); Avg Len: 4441.6873461538(B);
+	Time use: {"json_encode":7.2409930229187,"json_decode":8.5012938976288,"serialize":3.6806197166443,"unserialize":3.83185338974}
+Msgs: 80000
+	Json Len: 311588.93066406(KB); Avg Len: 3988.3383125(B);
+	serialize Len: 346977.27148438(KB); Avg Len: 4441.309075(B);
+	Time use: {"json_encode":7.4239859580994,"json_decode":8.7140073776245,"serialize":3.7672190666199,"unserialize":3.9215259552002}
+Msgs: 82000
+	Json Len: 319421.96582031(KB); Avg Len: 3988.8791829268(B);
+	serialize Len: 355690.89355469(KB); Avg Len: 4441.7984756098(B);
+	Time use: {"json_encode":7.6025881767273,"json_decode":8.9215698242188,"serialize":3.8519468307495,"unserialize":4.0077509880066}
+Msgs: 84000
+	Json Len: 327186.28710938(KB); Avg Len: 3988.5566428571(B);
+	serialize Len: 364350.43945312(KB); Avg Len: 4441.6053571429(B);
+	Time use: {"json_encode":7.7827401161194,"json_decode":9.1307172775269,"serialize":3.9382247924805,"unserialize":4.0954263210297}
+Msgs: 86000
+	Json Len: 335127.05175781(KB); Avg Len: 3990.3500116279(B);
+	serialize Len: 373158.71679688(KB); Avg Len: 4443.1921627907(B);
+	Time use: {"json_encode":7.972368478775,"json_decode":9.3420450687408,"serialize":4.0247528553009,"unserialize":4.2908475399017}
+Msgs: 88000
+	Json Len: 342999.859375(KB); Avg Len: 3991.2710909091(B);
+	serialize Len: 381904.23535156(KB); Avg Len: 4443.9765568182(B);
+	Time use: {"json_encode":8.1581876277924,"json_decode":9.5576815605164,"serialize":4.1144990921021,"unserialize":4.3823583126068}
+Msgs: 90000
+	Json Len: 350881.99023438(KB); Avg Len: 3992.2573111111(B);
+	serialize Len: 390663.51464844(KB); Avg Len: 4444.8826555556(B);
+	Time use: {"json_encode":8.3392062187195,"json_decode":9.7680377960205,"serialize":4.2001700401306,"unserialize":4.469934463501}
+Msgs: 92000
+	Json Len: 358765.85449219(KB); Avg Len: 3993.2199456522(B);
+	serialize Len: 399419.48632812(KB); Avg Len: 4445.7125434783(B);
+	Time use: {"json_encode":8.5247089862823,"json_decode":9.9831371307373,"serialize":4.2888085842133,"unserialize":4.5616419315338}
+Msgs: 94000
+	Json Len: 366629.81738281(KB); Avg Len: 3993.9248191489(B);
+	serialize Len: 408160.29785156(KB); Avg Len: 4446.3419680851(B);
+	Time use: {"json_encode":8.735871553421,"json_decode":10.200125455856,"serialize":4.376136302948,"unserialize":4.654412984848}
+Msgs: 96000
+	Json Len: 374434.59472656(KB); Avg Len: 3993.9690104167(B);
+	serialize Len: 416850.40429688(KB); Avg Len: 4446.4043125(B);
+	Time use: {"json_encode":8.9161455631256,"json_decode":10.408799648285,"serialize":4.4626641273499,"unserialize":4.7424309253693}
+Msgs: 98000
+	Json Len: 382236.39550781(KB); Avg Len: 3993.9802959184(B);
+	serialize Len: 425533.73242188(KB); Avg Len: 4446.3932857143(B);
+	Time use: {"json_encode":9.0987141132355,"json_decode":10.619917392731,"serialize":4.5531091690063,"unserialize":4.8330321311951}
+Msgs: 100000
+	Json Len: 390050.03125(KB); Avg Len: 3994.11232(B);
+	serialize Len: 434225.66992188(KB); Avg Len: 4446.47086(B);
+	Time use: {"json_encode":9.5156540870667,"json_decode":10.832955360413,"serialize":4.6414361000061,"unserialize":4.923139333725}
+Msgs: 102000
+	Json Len: 397871.85058594(KB); Avg Len: 3994.3213235294(B);
+	serialize Len: 442926.21972656(KB); Avg Len: 4446.6318529412(B);
+	Time use: {"json_encode":9.7040157318115,"json_decode":11.048768281937,"serialize":4.7300491333008,"unserialize":5.1356511116028}
+Msgs: 104000
+	Json Len: 405770.3203125(KB); Avg Len: 3995.277(B);
+	serialize Len: 451693.87304688(KB); Avg Len: 4447.4473653846(B);
+	Time use: {"json_encode":9.8881673812866,"json_decode":11.261557102203,"serialize":4.8165481090546,"unserialize":5.2246317863464}
+Msgs: 106000
+	Json Len: 413586.43457031(KB); Avg Len: 3995.4010283019(B);
+	serialize Len: 460388.66601562(KB); Avg Len: 4447.528245283(B);
+	Time use: {"json_encode":10.070170640945,"json_decode":11.473819255829,"serialize":4.9035739898682,"unserialize":5.3147799968719}
+Msgs: 108000
+	Json Len: 421373.07714844(KB); Avg Len: 3995.2410277778(B);
+	serialize Len: 469064.30566406(KB); Avg Len: 4447.4245277778(B);
+	Time use: {"json_encode":10.247576236725,"json_decode":11.681570768356,"serialize":4.9882109165192,"unserialize":5.4022073745728}
+Msgs: 110000
+	Json Len: 429238.91894531(KB); Avg Len: 3995.8241181818(B);
+	serialize Len: 477805.15234375(KB); Avg Len: 4447.9316(B);
+	Time use: {"json_encode":10.452921152115,"json_decode":11.891284704208,"serialize":5.073353767395,"unserialize":5.4901006221771}
+Msgs: 112000
+	Json Len: 437065.60742188(KB); Avg Len: 3996.0284107143(B);
+	serialize Len: 486514.24707031(KB); Avg Len: 4448.1302589286(B);
+	Time use: {"json_encode":10.633524894714,"json_decode":12.103692531586,"serialize":5.1603019237518,"unserialize":5.5798258781433}
+Msgs: 114000
+	Json Len: 444915.3828125(KB); Avg Len: 3996.4329122807(B);
+	serialize Len: 495241.73242188(KB); Avg Len: 4448.4871403509(B);
+	Time use: {"json_encode":10.818013191223,"json_decode":12.318405628204,"serialize":5.2458128929138,"unserialize":5.6699421405792}
+
+-------------------Result-----------------
+Msgs: 114576
+Json Len447229.39355469(KB); Avg: 3997.0229280128(B);
+serialize Len497801.25585938(KB); Avg: 4448.9987955593(B);
+{"json_encode":10.873863697052,"json_decode":12.383395195007,"serialize":5.2748785018921,"unserialize":5.6975238323212}
+2015-03-26 15:12:24 /Users/dushengchen/work/git/kt/rabbitmq/demo/post.log
+-------------------end-----------------
+-----------------start---------------
+2015-03-26 15:12:27 /Users/dushengchen/work/git/kt/rabbitmq/demo/gift.log
+Msgs: 2000
+	Json Len: 181.609375(KB); Avg Len: 92.984(B);
+	serialize Len: 270.6845703125(KB); Avg Len: 138.5905(B);
+	Time use: {"json_encode":0.038227081298828,"json_decode":0.041079998016357,"serialize":0.037447452545166,"unserialize":0.038148880004883}
+Msgs: 4000
+	Json Len: 362.0654296875(KB); Avg Len: 92.68875(B);
+	serialize Len: 539.95703125(KB); Avg Len: 138.229(B);
+	Time use: {"json_encode":0.079877614974976,"json_decode":0.086960792541504,"serialize":0.077670574188232,"unserialize":0.079483270645142}
+Msgs: 6000
+	Json Len: 541.888671875(KB); Avg Len: 92.482333333333(B);
+	serialize Len: 808.47265625(KB); Avg Len: 137.97933333333(B);
+	Time use: {"json_encode":0.13304328918457,"json_decode":0.13987326622009,"serialize":0.13073563575745,"unserialize":0.12683248519897}
+Msgs: 8000
+	Json Len: 723.224609375(KB); Avg Len: 92.57275(B);
+	serialize Len: 1079.072265625(KB); Avg Len: 138.12125(B);
+	Time use: {"json_encode":0.17116141319275,"json_decode":0.18136262893677,"serialize":0.16791725158691,"unserialize":0.16518115997314}
+Msgs: 10000
+	Json Len: 903.12890625(KB); Avg Len: 92.4804(B);
+	serialize Len: 1347.6875(KB); Avg Len: 138.0032(B);
+	Time use: {"json_encode":0.20931434631348,"json_decode":0.22266101837158,"serialize":0.2051739692688,"unserialize":0.20360136032104}
+Msgs: 12000
+	Json Len: 1083.16015625(KB); Avg Len: 92.429666666667(B);
+	serialize Len: 1616.3740234375(KB); Avg Len: 137.93058333333(B);
+	Time use: {"json_encode":0.2496612071991,"json_decode":0.26602149009705,"serialize":0.24457454681396,"unserialize":0.24565434455872}
+Msgs: 14000
+	Json Len: 1263.830078125(KB); Avg Len: 92.440142857143(B);
+	serialize Len: 1885.6884765625(KB); Avg Len: 137.92464285714(B);
+	Time use: {"json_encode":0.28808164596558,"json_decode":0.30749344825745,"serialize":0.28182768821716,"unserialize":0.28371000289917}
+Msgs: 16000
+	Json Len: 1445.2001953125(KB); Avg Len: 92.4928125(B);
+	serialize Len: 2156.03125(KB); Avg Len: 137.986(B);
+	Time use: {"json_encode":0.3268826007843,"json_decode":0.34972667694092,"serialize":0.31959056854248,"unserialize":0.32292556762695}
+Msgs: 18000
+	Json Len: 1626.4326171875(KB); Avg Len: 92.525944444444(B);
+	serialize Len: 2426.2880859375(KB); Avg Len: 138.02883333333(B);
+	Time use: {"json_encode":0.36438465118408,"json_decode":0.39070725440979,"serialize":0.3561897277832,"unserialize":0.36082410812378}
+Msgs: 20000
+	Json Len: 1807.9404296875(KB); Avg Len: 92.56655(B);
+	serialize Len: 2696.853515625(KB); Avg Len: 138.0789(B);
+	Time use: {"json_encode":0.40379095077515,"json_decode":0.43373608589172,"serialize":0.39471077919006,"unserialize":0.4012975692749}
+Msgs: 22000
+	Json Len: 1988.3427734375(KB); Avg Len: 92.548318181818(B);
+	serialize Len: 2965.9951171875(KB); Avg Len: 138.05359090909(B);
+	Time use: {"json_encode":0.44302582740784,"json_decode":0.47599959373474,"serialize":0.43264985084534,"unserialize":0.4405689239502}
+Msgs: 24000
+	Json Len: 2169.3125(KB); Avg Len: 92.557333333333(B);
+	serialize Len: 3235.9150390625(KB); Avg Len: 138.06570833333(B);
+	Time use: {"json_encode":0.48031663894653,"json_decode":0.51715326309204,"serialize":0.46930146217346,"unserialize":0.47779059410095}
+Msgs: 26000
+	Json Len: 2349.8232421875(KB); Avg Len: 92.546884615385(B);
+	serialize Len: 3505.205078125(KB); Avg Len: 138.05115384615(B);
+	Time use: {"json_encode":0.53304409980774,"json_decode":0.56938600540161,"serialize":0.51590895652771,"unserialize":0.52605581283569}
+Msgs: 28000
+	Json Len: 2530.97265625(KB); Avg Len: 92.561285714286(B);
+	serialize Len: 3775.3701171875(KB); Avg Len: 138.07067857143(B);
+	Time use: {"json_encode":0.57211232185364,"json_decode":0.61154961585999,"serialize":0.55412983894348,"unserialize":0.5654411315918}
+Msgs: 30000
+	Json Len: 2712.1376953125(KB); Avg Len: 92.5743(B);
+	serialize Len: 4045.4794921875(KB); Avg Len: 138.0857(B);
+	Time use: {"json_encode":0.60978865623474,"json_decode":0.65256667137146,"serialize":0.59121179580688,"unserialize":0.60359382629395}
+Msgs: 32000
+	Json Len: 2893.318359375(KB); Avg Len: 92.5861875(B);
+	serialize Len: 4315.72265625(KB); Avg Len: 138.103125(B);
+	Time use: {"json_encode":0.64869904518127,"json_decode":0.69493103027344,"serialize":0.62920212745667,"unserialize":0.64233946800232}
+Msgs: 34000
+	Json Len: 3074.23046875(KB); Avg Len: 92.588588235294(B);
+	serialize Len: 4585.7197265625(KB); Avg Len: 138.11108823529(B);
+	Time use: {"json_encode":0.68691754341125,"json_decode":0.73687267303467,"serialize":0.66654133796692,"unserialize":0.68039035797119}
+Msgs: 36000
+	Json Len: 3255.3642578125(KB); Avg Len: 92.597027777778(B);
+	serialize Len: 4855.8486328125(KB); Avg Len: 138.12191666667(B);
+	Time use: {"json_encode":0.72696924209595,"json_decode":0.78047275543213,"serialize":0.70589327812195,"unserialize":0.72076201438904}
+Msgs: 38000
+	Json Len: 3436.138671875(KB); Avg Len: 92.594894736842(B);
+	serialize Len: 5125.4521484375(KB); Avg Len: 138.11744736842(B);
+	Time use: {"json_encode":0.77071332931519,"json_decode":0.82949209213257,"serialize":0.74992227554321,"unserialize":0.76545071601868}
+Msgs: 40000
+	Json Len: 3615.6533203125(KB); Avg Len: 92.560725(B);
+	serialize Len: 5393.4130859375(KB); Avg Len: 138.071375(B);
+	Time use: {"json_encode":0.80943083763123,"json_decode":0.87132883071899,"serialize":0.787273645401,"unserialize":0.8047468662262}
+Msgs: 42000
+	Json Len: 3795.3017578125(KB); Avg Len: 92.533071428571(B);
+	serialize Len: 5661.4990234375(KB); Avg Len: 138.03273809524(B);
+	Time use: {"json_encode":0.84806632995605,"json_decode":0.9131715297699,"serialize":0.82514142990112,"unserialize":0.84397888183594}
+Msgs: 44000
+	Json Len: 3975.9267578125(KB); Avg Len: 92.530659090909(B);
+	serialize Len: 5930.9609375(KB); Avg Len: 138.02963636364(B);
+	Time use: {"json_encode":0.8873143196106,"json_decode":0.95555806159973,"serialize":0.86372637748718,"unserialize":0.88370275497437}
+Msgs: 46000
+	Json Len: 4157.0673828125(KB); Avg Len: 92.539934782609(B);
+	serialize Len: 6201.189453125(KB); Avg Len: 138.04386956522(B);
+	Time use: {"json_encode":0.92551922798157,"json_decode":0.99699831008911,"serialize":0.90106821060181,"unserialize":0.92170524597168}
+Msgs: 48000
+	Json Len: 4338.201171875(KB); Avg Len: 92.548291666667(B);
+	serialize Len: 6471.271484375(KB); Avg Len: 138.05379166667(B);
+	Time use: {"json_encode":0.96410059928894,"json_decode":1.0382742881775,"serialize":0.93823933601379,"unserialize":0.960209608078}
+Msgs: 50000
+	Json Len: 4518.8544921875(KB); Avg Len: 92.54614(B);
+	serialize Len: 6740.8837890625(KB); Avg Len: 138.0533(B);
+	Time use: {"json_encode":1.004136800766,"json_decode":1.0813646316528,"serialize":0.97619700431824,"unserialize":0.99982452392578}
+Msgs: 52000
+	Json Len: 4700.8291015625(KB); Avg Len: 92.570173076923(B);
+	serialize Len: 7012.2119140625(KB); Avg Len: 138.08663461538(B);
+	Time use: {"json_encode":1.0531089305878,"json_decode":1.1295907497406,"serialize":1.020414352417,"unserialize":1.0452969074249}
+Msgs: 54000
+	Json Len: 4882.0419921875(KB); Avg Len: 92.577981481481(B);
+	serialize Len: 7282.3828125(KB); Avg Len: 138.09555555556(B);
+	Time use: {"json_encode":1.0976846218109,"json_decode":1.1787858009338,"serialize":1.0629587173462,"unserialize":1.0891816616058}
+Msgs: 56000
+	Json Len: 5062.85546875(KB); Avg Len: 92.577928571429(B);
+	serialize Len: 7552.119140625(KB); Avg Len: 138.09589285714(B);
+	Time use: {"json_encode":1.138035774231,"json_decode":1.2216327190399,"serialize":1.1015965938568,"unserialize":1.130350112915}
+Msgs: 58000
+	Json Len: 5243.6767578125(KB); Avg Len: 92.578017241379(B);
+	serialize Len: 7821.798828125(KB); Avg Len: 138.09520689655(B);
+	Time use: {"json_encode":1.177759885788,"json_decode":1.2650558948517,"serialize":1.14044880867,"unserialize":1.170422077179}
+Msgs: 60000
+	Json Len: 5424.4833984375(KB); Avg Len: 92.57785(B);
+	serialize Len: 8091.5849609375(KB); Avg Len: 138.09638333333(B);
+	Time use: {"json_encode":1.2170104980469,"json_decode":1.3067181110382,"serialize":1.1788301467896,"unserialize":1.2098743915558}
+Msgs: 62000
+	Json Len: 5605.7431640625(KB); Avg Len: 92.585177419355(B);
+	serialize Len: 8362.021484375(KB); Avg Len: 138.10822580645(B);
+	Time use: {"json_encode":1.2546889781952,"json_decode":1.3478589057922,"serialize":1.2161626815796,"unserialize":1.2480926513672}
+Msgs: 64000
+	Json Len: 5786.427734375(KB); Avg Len: 92.58284375(B);
+	serialize Len: 8631.6474609375(KB); Avg Len: 138.106359375(B);
+	Time use: {"json_encode":1.2935597896576,"json_decode":1.3942594528198,"serialize":1.254593372345,"unserialize":1.2873582839966}
+Msgs: 66000
+	Json Len: 5966.8955078125(KB); Avg Len: 92.577287878788(B);
+	serialize Len: 8900.8935546875(KB); Avg Len: 138.09871212121(B);
+	Time use: {"json_encode":1.3329710960388,"json_decode":1.4386630058289,"serialize":1.2939639091492,"unserialize":1.3276290893555}
+Msgs: 68000
+	Json Len: 6148.8505859375(KB); Avg Len: 92.594455882353(B);
+	serialize Len: 9172.0283203125(KB); Avg Len: 138.11995588235(B);
+	Time use: {"json_encode":1.373809337616,"json_decode":1.4834978580475,"serialize":1.334016084671,"unserialize":1.4015474319458}
+Msgs: 70000
+	Json Len: 6330.33984375(KB); Avg Len: 92.603828571429(B);
+	serialize Len: 9442.7763671875(KB); Avg Len: 138.13432857143(B);
+	Time use: {"json_encode":1.440450668335,"json_decode":1.5271599292755,"serialize":1.3738055229187,"unserialize":1.4415526390076}
+Msgs: 72000
+	Json Len: 6511.57421875(KB); Avg Len: 92.609055555556(B);
+	serialize Len: 9713.046875(KB); Avg Len: 138.14111111111(B);
+	Time use: {"json_encode":1.4796075820923,"json_decode":1.569896697998,"serialize":1.411954164505,"unserialize":1.481457233429}
+Msgs: 74000
+	Json Len: 6693.41015625(KB); Avg Len: 92.622324324324(B);
+	serialize Len: 9984.0869140625(KB); Avg Len: 138.15817567568(B);
+	Time use: {"json_encode":1.5257804393768,"json_decode":1.6127552986145,"serialize":1.4533252716064,"unserialize":1.5208444595337}
+Msgs: 76000
+	Json Len: 6875.375(KB); Avg Len: 92.636631578947(B);
+	serialize Len: 10255.194335938(KB); Avg Len: 138.17525(B);
+	Time use: {"json_encode":1.5662693977356,"json_decode":1.6567356586456,"serialize":1.4945018291473,"unserialize":1.5618357658386}
+Msgs: 78000
+	Json Len: 7056.15625(KB); Avg Len: 92.634666666667(B);
+	serialize Len: 10524.848632812(KB); Avg Len: 138.17237179487(B);
+	Time use: {"json_encode":1.6048085689545,"json_decode":1.6982455253601,"serialize":1.5318098068237,"unserialize":1.5997583866119}
+Msgs: 80000
+	Json Len: 7238.1474609375(KB); Avg Len: 92.6482875(B);
+	serialize Len: 10796.282226562(KB); Avg Len: 138.1924125(B);
+	Time use: {"json_encode":1.643137216568,"json_decode":1.7403328418732,"serialize":1.5698046684265,"unserialize":1.6390600204468}
+Msgs: 82000
+	Json Len: 7420.099609375(KB); Avg Len: 92.660756097561(B);
+	serialize Len: 11067.552734375(KB); Avg Len: 138.20943902439(B);
+	Time use: {"json_encode":1.681955575943,"json_decode":1.7829740047455,"serialize":1.6079943180084,"unserialize":1.6779184341431}
+Msgs: 84000
+	Json Len: 7601.14453125(KB); Avg Len: 92.661571428571(B);
+	serialize Len: 11337.49609375(KB); Avg Len: 138.20947619048(B);
+	Time use: {"json_encode":1.7210664749146,"json_decode":1.8256089687347,"serialize":1.6463332176208,"unserialize":1.7169291973114}
+Msgs: 86000
+	Json Len: 7782.1181640625(KB); Avg Len: 92.6615(B);
+	serialize Len: 11607.610351562(KB); Avg Len: 138.21154651163(B);
+	Time use: {"json_encode":1.7612175941467,"json_decode":1.8690164089203,"serialize":1.6855065822601,"unserialize":1.7565262317657}
+Msgs: 88000
+	Json Len: 7962.373046875(KB); Avg Len: 92.653068181818(B);
+	serialize Len: 11876.528320312(KB); Avg Len: 138.19960227273(B);
+	Time use: {"json_encode":1.8006629943848,"json_decode":1.911153793335,"serialize":1.723221540451,"unserialize":1.7953402996063}
+Msgs: 90000
+	Json Len: 8142.5859375(KB); Avg Len: 92.644533333333(B);
+	serialize Len: 12145.588867188(KB); Avg Len: 138.18981111111(B);
+	Time use: {"json_encode":1.8405745029449,"json_decode":1.9547576904297,"serialize":1.7624225616455,"unserialize":1.8356766700745}
+Msgs: 92000
+	Json Len: 8323.93359375(KB); Avg Len: 92.649(B);
+	serialize Len: 12415.944335938(KB); Avg Len: 138.19485869565(B);
+	Time use: {"json_encode":1.8798015117645,"json_decode":1.9973127841949,"serialize":1.8006405830383,"unserialize":1.8749148845673}
+Msgs: 94000
+	Json Len: 8504.49609375(KB); Avg Len: 92.644723404255(B);
+	serialize Len: 12685.291992188(KB); Avg Len: 138.18871276596(B);
+	Time use: {"json_encode":1.9172251224518,"json_decode":2.0380568504333,"serialize":1.8371019363403,"unserialize":1.9121193885803}
+Msgs: 96000
+	Json Len: 8684.8505859375(KB); Avg Len: 92.63840625(B);
+	serialize Len: 12954.380859375(KB); Avg Len: 138.1800625(B);
+	Time use: {"json_encode":1.9560532569885,"json_decode":2.080573797226,"serialize":1.8746204376221,"unserialize":1.950850725174}
+Msgs: 98000
+	Json Len: 8865.0751953125(KB); Avg Len: 92.630989795918(B);
+	serialize Len: 13223.370117188(KB); Avg Len: 138.1707244898(B);
+	Time use: {"json_encode":1.9940528869629,"json_decode":2.1222441196442,"serialize":1.9118187427521,"unserialize":1.9885022640228}
+Msgs: 100000
+	Json Len: 9045.46484375(KB); Avg Len: 92.62556(B);
+	serialize Len: 13492.543945312(KB); Avg Len: 138.16365(B);
+	Time use: {"json_encode":2.0330111980438,"json_decode":2.1639032363892,"serialize":1.949535369873,"unserialize":2.0272610187531}
+Msgs: 102000
+	Json Len: 9226.5771484375(KB); Avg Len: 92.627598039216(B);
+	serialize Len: 13762.755859375(KB); Avg Len: 138.1672745098(B);
+	Time use: {"json_encode":2.0750532150269,"json_decode":2.2084014415741,"serialize":1.9894797801971,"unserialize":2.0684421062469}
+Msgs: 104000
+	Json Len: 9407.2138671875(KB); Avg Len: 92.624875(B);
+	serialize Len: 14032.15234375(KB); Avg Len: 138.16273076923(B);
+	Time use: {"json_encode":2.1131610870361,"json_decode":2.2510287761688,"serialize":2.0270147323608,"unserialize":2.1067118644714}
+Msgs: 106000
+	Json Len: 9587.8603515625(KB); Avg Len: 92.622349056604(B);
+	serialize Len: 14301.737304688(KB); Avg Len: 138.16017924528(B);
+	Time use: {"json_encode":2.1538667678833,"json_decode":2.2964234352112,"serialize":2.0668132305145,"unserialize":2.1481294631958}
+Msgs: 108000
+	Json Len: 9767.7021484375(KB); Avg Len: 92.612287037037(B);
+	serialize Len: 14570.234375(KB); Avg Len: 138.14740740741(B);
+	Time use: {"json_encode":2.1935606002808,"json_decode":2.3394107818604,"serialize":2.1070463657379,"unserialize":2.1885216236115}
+Msgs: 110000
+	Json Len: 9947.6005859375(KB); Avg Len: 92.603118181818(B);
+	serialize Len: 14838.784179688(KB); Avg Len: 138.13559090909(B);
+	Time use: {"json_encode":2.2330536842346,"json_decode":2.3824226856232,"serialize":2.1455476284027,"unserialize":2.2283220291138}
+Msgs: 112000
+	Json Len: 10127.389648438(KB); Avg Len: 92.593276785714(B);
+	serialize Len: 15107.23828125(KB); Avg Len: 138.12332142857(B);
+	Time use: {"json_encode":2.2704303264618,"json_decode":2.4235742092133,"serialize":2.1820409297943,"unserialize":2.2657573223114}
+Msgs: 114000
+	Json Len: 10308.061523438(KB); Avg Len: 92.591710526316(B);
+	serialize Len: 15376.79296875(KB); Avg Len: 138.12136842105(B);
+	Time use: {"json_encode":2.3088979721069,"json_decode":2.4662663936615,"serialize":2.2201817035675,"unserialize":2.3039844036102}
+Msgs: 116000
+	Json Len: 10488.87109375(KB); Avg Len: 92.591413793103(B);
+	serialize Len: 15646.57421875(KB); Avg Len: 138.12148275862(B);
+	Time use: {"json_encode":2.3538248538971,"json_decode":2.5145902633667,"serialize":2.2629239559174,"unserialize":2.3490190505981}
+Msgs: 118000
+	Json Len: 10670.012695312(KB); Avg Len: 92.594008474576(B);
+	serialize Len: 15916.653320312(KB); Avg Len: 138.1241779661(B);
+	Time use: {"json_encode":2.3946278095245,"json_decode":2.558664560318,"serialize":2.3032965660095,"unserialize":2.3900632858276}
+Msgs: 120000
+	Json Len: 10851.541015625(KB); Avg Len: 92.599816666667(B);
+	serialize Len: 16187.434570312(KB); Avg Len: 138.132775(B);
+	Time use: {"json_encode":2.4334943294525,"json_decode":2.6009333133698,"serialize":2.3414919376373,"unserialize":2.4290430545807}
+Msgs: 122000
+	Json Len: 11032.622070312(KB); Avg Len: 92.601680327869(B);
+	serialize Len: 16457.443359375(KB); Avg Len: 138.13460655738(B);
+	Time use: {"json_encode":2.4729006290436,"json_decode":2.6442437171936,"serialize":2.3804051876068,"unserialize":2.4689135551453}
+Msgs: 124000
+	Json Len: 11213.875976562(KB); Avg Len: 92.604911290323(B);
+	serialize Len: 16727.647460938(KB); Avg Len: 138.13799193548(B);
+	Time use: {"json_encode":2.5147678852081,"json_decode":2.6879968643188,"serialize":2.4182550907135,"unserialize":2.50758934021}
+Msgs: 126000
+	Json Len: 11395.575195312(KB); Avg Len: 92.611658730159(B);
+	serialize Len: 16998.4375(KB); Avg Len: 138.14603174603(B);
+	Time use: {"json_encode":2.5561103820801,"json_decode":2.7322723865509,"serialize":2.4580540657043,"unserialize":2.5488922595978}
+Msgs: 128000
+	Json Len: 11576.749023438(KB); Avg Len: 92.6139921875(B);
+	serialize Len: 17268.650390625(KB); Avg Len: 138.149203125(B);
+	Time use: {"json_encode":2.5962905883789,"json_decode":2.7752499580383,"serialize":2.4970242977142,"unserialize":2.5897145271301}
+Msgs: 130000
+	Json Len: 11757.931640625(KB); Avg Len: 92.616323076923(B);
+	serialize Len: 17538.67578125(KB); Avg Len: 138.1508(B);
+	Time use: {"json_encode":2.636280298233,"json_decode":2.8185284137726,"serialize":2.5357582569122,"unserialize":2.629298210144}
+Msgs: 132000
+	Json Len: 11938.934570312(KB); Avg Len: 92.617189393939(B);
+	serialize Len: 17808.567382812(KB); Avg Len: 138.15131060606(B);
+	Time use: {"json_encode":2.6765029430389,"json_decode":2.8618383407593,"serialize":2.5746567249298,"unserialize":2.6696202754974}
+Msgs: 134000
+	Json Len: 12119.905273438(KB); Avg Len: 92.61778358209(B);
+	serialize Len: 18078.556640625(KB); Avg Len: 138.15255223881(B);
+	Time use: {"json_encode":2.7154886722565,"json_decode":2.9043867588043,"serialize":2.6125538349152,"unserialize":2.7091047763824}
+Msgs: 136000
+	Json Len: 12301.205078125(KB); Avg Len: 92.620838235294(B);
+	serialize Len: 18348.82421875(KB); Avg Len: 138.15585294118(B);
+	Time use: {"json_encode":2.7553913593292,"json_decode":2.9481673240662,"serialize":2.6513879299164,"unserialize":2.7494585514069}
+Msgs: 138000
+	Json Len: 12481.857421875(KB); Avg Len: 92.619(B);
+	serialize Len: 18618.298828125(KB); Avg Len: 138.15317391304(B);
+	Time use: {"json_encode":2.7944114208221,"json_decode":2.9903733730316,"serialize":2.6894166469574,"unserialize":2.7876064777374}
+Msgs: 140000
+	Json Len: 12662.634765625(KB); Avg Len: 92.618128571429(B);
+	serialize Len: 18887.845703125(KB); Avg Len: 138.1511(B);
+	Time use: {"json_encode":2.8337688446045,"json_decode":3.0328657627106,"serialize":2.7274935245514,"unserialize":2.8268790245056}
+Msgs: 142000
+	Json Len: 12843.538085938(KB); Avg Len: 92.618190140845(B);
+	serialize Len: 19157.547851562(KB); Avg Len: 138.15020422535(B);
+	Time use: {"json_encode":2.8754184246063,"json_decode":3.0773260593414,"serialize":2.7702577114105,"unserialize":2.8700678348541}
+Msgs: 144000
+	Json Len: 13024.678710938(KB); Avg Len: 92.6199375(B);
+	serialize Len: 19427.758789062(KB); Avg Len: 138.15295138889(B);
+	Time use: {"json_encode":2.914516210556,"json_decode":3.119811296463,"serialize":2.8085701465607,"unserialize":2.9087100028992}
+Msgs: 146000
+	Json Len: 13206.052734375(KB); Avg Len: 92.623273972603(B);
+	serialize Len: 19698.18359375(KB); Avg Len: 138.15712328767(B);
+	Time use: {"json_encode":2.9535279273987,"json_decode":3.1618938446045,"serialize":2.8467934131622,"unserialize":2.9481284618378}
+Msgs: 148000
+	Json Len: 13386.3203125(KB); Avg Len: 92.618864864865(B);
+	serialize Len: 19967.383789062(KB); Avg Len: 138.15270945946(B);
+	Time use: {"json_encode":2.992791891098,"json_decode":3.2046685218811,"serialize":2.8855938911438,"unserialize":2.9879138469696}
+Msgs: 150000
+	Json Len: 13567.06640625(KB); Avg Len: 92.61784(B);
+	serialize Len: 20237.16015625(KB); Avg Len: 138.15234666667(B);
+	Time use: {"json_encode":3.0317912101746,"json_decode":3.2467167377472,"serialize":2.924108505249,"unserialize":3.0269348621368}
+Msgs: 152000
+	Json Len: 13747.874023438(KB); Avg Len: 92.617256578947(B);
+	serialize Len: 20506.983398438(KB); Avg Len: 138.15230921053(B);
+	Time use: {"json_encode":3.0700073242188,"json_decode":3.2889723777771,"serialize":2.9618146419525,"unserialize":3.0656921863556}
+Msgs: 154000
+	Json Len: 13928.111328125(KB); Avg Len: 92.612896103896(B);
+	serialize Len: 20776.017578125(KB); Avg Len: 138.14702597403(B);
+	Time use: {"json_encode":3.1085901260376,"json_decode":3.3305697441101,"serialize":2.9991352558136,"unserialize":3.1049149036407}
+Msgs: 156000
+	Json Len: 14108.008789062(KB); Avg Len: 92.606416666667(B);
+	serialize Len: 21044.609375(KB); Avg Len: 138.13897435897(B);
+	Time use: {"json_encode":3.1497902870178,"json_decode":3.3748033046722,"serialize":3.038866519928,"unserialize":3.1457505226135}
+Msgs: 158000
+	Json Len: 14288.653320312(KB); Avg Len: 92.604943037975(B);
+	serialize Len: 21314.213867188(KB); Avg Len: 138.13768987342(B);
+	Time use: {"json_encode":3.1893837451935,"json_decode":3.4176008701324,"serialize":3.0773522853851,"unserialize":3.1854314804077}
+Msgs: 160000
+	Json Len: 14468.772460938(KB); Avg Len: 92.60014375(B);
+	serialize Len: 21583.171875(KB); Avg Len: 138.1323(B);
+	Time use: {"json_encode":3.2283546924591,"json_decode":3.4597406387329,"serialize":3.1152589321136,"unserialize":3.2246122360229}
+Msgs: 162000
+	Json Len: 14649.676757812(KB); Avg Len: 92.600425925926(B);
+	serialize Len: 21853.133789062(KB); Avg Len: 138.13338888889(B);
+	Time use: {"json_encode":3.2661550045013,"json_decode":3.5009305477142,"serialize":3.1524612903595,"unserialize":3.2626874446869}
+Msgs: 164000
+	Json Len: 14829.666992188(KB); Avg Len: 92.594993902439(B);
+	serialize Len: 22121.889648438(KB); Avg Len: 138.12692073171(B);
+	Time use: {"json_encode":3.3053436279297,"json_decode":3.5434756278992,"serialize":3.1910161972046,"unserialize":3.3015637397766}
+Msgs: 166000
+	Json Len: 15009.885742188(KB); Avg Len: 92.591102409639(B);
+	serialize Len: 22390.946289062(KB); Avg Len: 138.12246385542(B);
+	Time use: {"json_encode":3.3444139957428,"json_decode":3.5855383872986,"serialize":3.2285766601562,"unserialize":3.3403251171112}
+Msgs: 168000
+	Json Len: 15190.763671875(KB); Avg Len: 92.591321428571(B);
+	serialize Len: 22660.822265625(KB); Avg Len: 138.12310714286(B);
+	Time use: {"json_encode":3.3846366405487,"json_decode":3.6285092830658,"serialize":3.2676315307617,"unserialize":3.3802969455719}
+Msgs: 170000
+	Json Len: 15371.27734375(KB); Avg Len: 92.589341176471(B);
+	serialize Len: 22930.126953125(KB); Avg Len: 138.12029411765(B);
+	Time use: {"json_encode":3.4229743480682,"json_decode":3.6702620983124,"serialize":3.305125951767,"unserialize":3.4188930988312}
+Msgs: 172000
+	Json Len: 15552.993164062(KB); Avg Len: 92.594563953488(B);
+	serialize Len: 23201.013671875(KB); Avg Len: 138.12696511628(B);
+	Time use: {"json_encode":3.4616343975067,"json_decode":3.7121713161469,"serialize":3.3433866500854,"unserialize":3.4579572677612}
+Msgs: 174000
+	Json Len: 15733.745117188(KB); Avg Len: 92.593994252874(B);
+	serialize Len: 23470.624023438(KB); Avg Len: 138.12597126437(B);
+	Time use: {"json_encode":3.4999332427979,"json_decode":3.7537190914154,"serialize":3.3810696601868,"unserialize":3.4961426258087}
+Msgs: 176000
+	Json Len: 15913.795898438(KB); Avg Len: 92.589357954545(B);
+	serialize Len: 23739.192382812(KB); Avg Len: 138.1189375(B);
+	Time use: {"json_encode":3.5382566452026,"json_decode":3.7951579093933,"serialize":3.4182906150818,"unserialize":3.5342195034027}
+Msgs: 178000
+	Json Len: 16093.716796875(KB); Avg Len: 92.584078651685(B);
+	serialize Len: 24007.827148438(KB); Avg Len: 138.11244382022(B);
+	Time use: {"json_encode":3.5778784751892,"json_decode":3.8379082679749,"serialize":3.4575428962708,"unserialize":3.573201417923}
+Msgs: 180000
+	Json Len: 16274.90625(KB); Avg Len: 92.586133333333(B);
+	serialize Len: 24278.100585938(KB); Avg Len: 138.11541666667(B);
+	Time use: {"json_encode":3.6169652938843,"json_decode":3.8806085586548,"serialize":3.4952857494354,"unserialize":3.6126308441162}
+Msgs: 182000
+	Json Len: 16456.538085938(KB); Avg Len: 92.590631868132(B);
+	serialize Len: 24548.975585938(KB); Avg Len: 138.12170879121(B);
+	Time use: {"json_encode":3.6561770439148,"json_decode":3.9232633113861,"serialize":3.5340092182159,"unserialize":3.6518743038177}
+Msgs: 184000
+	Json Len: 16637.903320312(KB); Avg Len: 92.593548913043(B);
+	serialize Len: 24819.334960938(KB); Avg Len: 138.12499456522(B);
+	Time use: {"json_encode":3.6999344825745,"json_decode":3.9709994792938,"serialize":3.5765235424042,"unserialize":3.6952955722809}
+Msgs: 186000
+	Json Len: 16818.846679688(KB); Avg Len: 92.594080645161(B);
+	serialize Len: 25089.489257812(KB); Avg Len: 138.12708064516(B);
+	Time use: {"json_encode":3.7404763698578,"json_decode":4.0156824588776,"serialize":3.6167514324188,"unserialize":3.7365393638611}
+Msgs: 188000
+	Json Len: 17000.143554688(KB); Avg Len: 92.596526595745(B);
+	serialize Len: 25359.841796875(KB); Avg Len: 138.13020212766(B);
+	Time use: {"json_encode":3.7852387428284,"json_decode":4.0650503635406,"serialize":3.6605174541473,"unserialize":3.7807610034943}
+Msgs: 190000
+	Json Len: 17180.828125(KB); Avg Len: 92.595621052632(B);
+	serialize Len: 25629.47265625(KB); Avg Len: 138.12936842105(B);
+	Time use: {"json_encode":3.8421840667725,"json_decode":4.126610994339,"serialize":3.7112119197845,"unserialize":3.8332974910736}
+Msgs: 192000
+	Json Len: 17361.231445312(KB); Avg Len: 92.593234375(B);
+	serialize Len: 25898.62109375(KB); Avg Len: 138.12597916667(B);
+	Time use: {"json_encode":3.883229970932,"json_decode":4.1868894100189,"serialize":3.8269331455231,"unserialize":3.8808369636536}
+Msgs: 194000
+	Json Len: 17542.022460938(KB); Avg Len: 92.592943298969(B);
+	serialize Len: 26168.377929688(KB); Avg Len: 138.12587113402(B);
+	Time use: {"json_encode":3.9260363578796,"json_decode":4.2332863807678,"serialize":3.8696930408478,"unserialize":3.9239959716797}
+Msgs: 196000
+	Json Len: 17722.806640625(KB); Avg Len: 92.59262244898(B);
+	serialize Len: 26438.13671875(KB); Avg Len: 138.1257755102(B);
+	Time use: {"json_encode":3.9811749458313,"json_decode":4.2874608039856,"serialize":3.9189665317535,"unserialize":3.9750804901123}
+Msgs: 198000
+	Json Len: 17902.63671875(KB); Avg Len: 92.587373737374(B);
+	serialize Len: 26706.553710938(KB); Avg Len: 138.11874242424(B);
+	Time use: {"json_encode":4.0450758934021,"json_decode":4.4824049472809,"serialize":4.0598695278168,"unserialize":4.0371611118317}
+Msgs: 200000
+	Json Len: 18083.590820312(KB); Avg Len: 92.587985(B);
+	serialize Len: 26976.442382812(KB); Avg Len: 138.119385(B);
+	Time use: {"json_encode":4.1388494968414,"json_decode":4.6423728466034,"serialize":4.2130217552185,"unserialize":4.1695439815521}
+Msgs: 202000
+	Json Len: 18263.705078125(KB); Avg Len: 92.584326732673(B);
+	serialize Len: 27245.274414062(KB); Avg Len: 138.11465841584(B);
+	Time use: {"json_encode":4.2887094020844,"json_decode":4.8716425895691,"serialize":4.2688493728638,"unserialize":4.2917792797089}
+Msgs: 204000
+	Json Len: 18444.944335938(KB); Avg Len: 92.586387254902(B);
+	serialize Len: 27515.509765625(KB); Avg Len: 138.11706862745(B);
+	Time use: {"json_encode":4.3362758159637,"json_decode":4.9238681793213,"serialize":4.314670085907,"unserialize":4.3380315303802}
+Msgs: 206000
+	Json Len: 18625.685546875(KB); Avg Len: 92.585932038835(B);
+	serialize Len: 27785.391601562(KB); Avg Len: 138.11767475728(B);
+	Time use: {"json_encode":4.3785936832428,"json_decode":4.9704720973969,"serialize":4.3566455841064,"unserialize":4.3818297386169}
+Msgs: 208000
+	Json Len: 18807.458007812(KB); Avg Len: 92.5905625(B);
+	serialize Len: 28056.395507812(KB); Avg Len: 138.12379326923(B);
+	Time use: {"json_encode":4.4182829856873,"json_decode":5.0138096809387,"serialize":4.423636674881,"unserialize":4.4209630489349}
+Msgs: 210000
+	Json Len: 18988.701171875(KB); Avg Len: 92.592523809524(B);
+	serialize Len: 28326.663085938(KB); Avg Len: 138.1262047619(B);
+	Time use: {"json_encode":4.4566695690155,"json_decode":5.0551681518555,"serialize":4.4610922336578,"unserialize":4.4593682289124}
+Msgs: 212000
+	Json Len: 19170.958007812(KB); Avg Len: 92.599344339623(B);
+	serialize Len: 28598.298828125(KB); Avg Len: 138.13517924528(B);
+	Time use: {"json_encode":4.5276319980621,"json_decode":5.0991790294647,"serialize":4.5008380413055,"unserialize":4.5514330863953}
+Msgs: 214000
+	Json Len: 19351.676757812(KB); Avg Len: 92.598677570093(B);
+	serialize Len: 28867.920898438(KB); Avg Len: 138.13435046729(B);
+	Time use: {"json_encode":4.5676140785217,"json_decode":5.1581783294678,"serialize":4.5395088195801,"unserialize":4.5919556617737}
+Msgs: 216000
+	Json Len: 19532.3671875(KB); Avg Len: 92.597888888889(B);
+	serialize Len: 29137.452148438(KB); Avg Len: 138.13310648148(B);
+	Time use: {"json_encode":4.6093134880066,"json_decode":5.2036163806915,"serialize":4.5805189609528,"unserialize":4.6337549686432}
+Msgs: 218000
+	Json Len: 19713.202148438(KB); Avg Len: 92.597793577982(B);
+	serialize Len: 29407.196289062(KB); Avg Len: 138.1328853211(B);
+	Time use: {"json_encode":4.6475636959076,"json_decode":5.2455325126648,"serialize":4.6179049015045,"unserialize":4.6719522476196}
+Msgs: 220000
+	Json Len: 19893.591796875(KB); Avg Len: 92.595627272727(B);
+	serialize Len: 29676.421875(KB); Avg Len: 138.13025454545(B);
+	Time use: {"json_encode":4.6862878799438,"json_decode":5.2885601520538,"serialize":4.6562190055847,"unserialize":4.7473549842834}
+Msgs: 222000
+	Json Len: 20073.797851562(KB); Avg Len: 92.592653153153(B);
+	serialize Len: 29945.4921875(KB); Avg Len: 138.12695495495(B);
+	Time use: {"json_encode":4.7292096614838,"json_decode":5.3407623767853,"serialize":4.6986787319183,"unserialize":4.7907211780548}
+Msgs: 224000
+	Json Len: 20255.334960938(KB); Avg Len: 92.595816964286(B);
+	serialize Len: 30216.170898438(KB); Avg Len: 138.13106696429(B);
+	Time use: {"json_encode":4.7723689079285,"json_decode":5.3863501548767,"serialize":4.7409026622772,"unserialize":4.8331255912781}
+Msgs: 226000
+	Json Len: 20436.442382812(KB); Avg Len: 92.596977876106(B);
+	serialize Len: 30486.294921875(KB); Avg Len: 138.13259292035(B);
+	Time use: {"json_encode":4.8150677680969,"json_decode":5.4374778270721,"serialize":4.7834413051605,"unserialize":4.8762781620026}
+Msgs: 228000
+	Json Len: 20617.330078125(KB); Avg Len: 92.597131578947(B);
+	serialize Len: 30756.06640625(KB); Avg Len: 138.13250877193(B);
+	Time use: {"json_encode":4.8613789081573,"json_decode":5.4873774051666,"serialize":4.8285667896271,"unserialize":4.9234571456909}
+Msgs: 230000
+	Json Len: 20798.604492188(KB); Avg Len: 92.599004347826(B);
+	serialize Len: 31026.31640625(KB); Avg Len: 138.13455652174(B);
+	Time use: {"json_encode":4.900541305542,"json_decode":5.5295989513397,"serialize":4.8672022819519,"unserialize":5.0130844116211}
+Msgs: 232000
+	Json Len: 20979.3515625(KB); Avg Len: 92.598517241379(B);
+	serialize Len: 31295.966796875(KB); Avg Len: 138.13392241379(B);
+	Time use: {"json_encode":4.9423265457153,"json_decode":5.5781896114349,"serialize":4.9086468219757,"unserialize":5.0556156635284}
+Msgs: 234000
+	Json Len: 21160.565429688(KB); Avg Len: 92.600081196581(B);
+	serialize Len: 31566.153320312(KB); Avg Len: 138.13564529915(B);
+	Time use: {"json_encode":4.9802510738373,"json_decode":5.6193118095398,"serialize":4.9449467658997,"unserialize":5.0928962230682}
+Msgs: 236000
+	Json Len: 21340.571289062(KB); Avg Len: 92.596377118644(B);
+	serialize Len: 31834.728515625(KB); Avg Len: 138.13034745763(B);
+	Time use: {"json_encode":5.0201041698456,"json_decode":5.6621751785278,"serialize":4.9837627410889,"unserialize":5.1326723098755}
+Msgs: 238000
+	Json Len: 21520.916015625(KB); Avg Len: 92.594193277311(B);
+	serialize Len: 32103.819335938(KB); Avg Len: 138.12735714286(B);
+	Time use: {"json_encode":5.060343503952,"json_decode":5.7053461074829,"serialize":5.0229246616364,"unserialize":5.1726565361023}
+Msgs: 240000
+	Json Len: 21702.014648438(KB); Avg Len: 92.5952625(B);
+	serialize Len: 32373.834960938(KB); Avg Len: 138.1283625(B);
+	Time use: {"json_encode":5.1048228740692,"json_decode":5.7520275115967,"serialize":5.0681209564209,"unserialize":5.2191874980927}
+Msgs: 242000
+	Json Len: 21883.276367188(KB); Avg Len: 92.597004132231(B);
+	serialize Len: 32644.043945312(KB); Avg Len: 138.13016942149(B);
+	Time use: {"json_encode":5.1512641906738,"json_decode":5.8033835887909,"serialize":5.1121416091919,"unserialize":5.2676887512207}
+Msgs: 244000
+	Json Len: 22063.256835938(KB); Avg Len: 92.593340163934(B);
+	serialize Len: 32912.68359375(KB); Avg Len: 138.12536065574(B);
+	Time use: {"json_encode":5.1906220912933,"json_decode":5.8455274105072,"serialize":5.1530275344849,"unserialize":5.3066284656525}
+Msgs: 246000
+	Json Len: 22244.327148438(KB); Avg Len: 92.594272357724(B);
+	serialize Len: 33182.720703125(KB); Avg Len: 138.12644715447(B);
+	Time use: {"json_encode":5.2296087741852,"json_decode":5.8882541656494,"serialize":5.1920733451843,"unserialize":5.3464019298553}
+Msgs: 248000
+	Json Len: 22424.817382812(KB); Avg Len: 92.592794354839(B);
+	serialize Len: 33452.166992188(KB); Avg Len: 138.1250766129(B);
+	Time use: {"json_encode":5.2719216346741,"json_decode":5.9348568916321,"serialize":5.23371052742,"unserialize":5.3899443149567}
+Msgs: 250000
+	Json Len: 22605.969726562(KB); Avg Len: 92.594052(B);
+	serialize Len: 33722.314453125(KB); Avg Len: 138.1266(B);
+	Time use: {"json_encode":5.3327717781067,"json_decode":6.0095772743225,"serialize":5.2934787273407,"unserialize":5.4584522247314}
+Msgs: 252000
+	Json Len: 22786.969726562(KB); Avg Len: 92.594670634921(B);
+	serialize Len: 33992.181640625(KB); Avg Len: 138.12696031746(B);
+	Time use: {"json_encode":5.370100736618,"json_decode":6.0500588417053,"serialize":5.3300306797028,"unserialize":5.4955976009369}
+Msgs: 254000
+	Json Len: 22968.639648438(KB); Avg Len: 92.597980314961(B);
+	serialize Len: 34262.908203125(KB); Avg Len: 138.13077952756(B);
+	Time use: {"json_encode":5.4071433544159,"json_decode":6.0909037590027,"serialize":5.3662660121918,"unserialize":5.5325856208801}
+Msgs: 256000
+	Json Len: 23149.358398438(KB); Avg Len: 92.59743359375(B);
+	serialize Len: 34532.505859375(KB); Avg Len: 138.1300234375(B);
+	Time use: {"json_encode":5.445207118988,"json_decode":6.1326174736023,"serialize":5.4036474227905,"unserialize":5.5708963871002}
+Msgs: 258000
+	Json Len: 23331.16796875(KB); Avg Len: 92.601224806202(B);
+	serialize Len: 34803.529296875(KB); Avg Len: 138.1349379845(B);
+	Time use: {"json_encode":5.484543800354,"json_decode":6.213719367981,"serialize":5.5595061779022,"unserialize":5.7481601238251}
+Msgs: 260000
+	Json Len: 23512.004882812(KB); Avg Len: 92.601126923077(B);
+	serialize Len: 35073.395507812(KB); Avg Len: 138.13521923077(B);
+	Time use: {"json_encode":5.5229561328888,"json_decode":6.2548513412476,"serialize":5.5965874195099,"unserialize":5.7862069606781}
+Msgs: 262000
+	Json Len: 23692.337890625(KB); Avg Len: 92.599061068702(B);
+	serialize Len: 35342.5(KB); Avg Len: 138.13251908397(B);
+	Time use: {"json_encode":5.5602390766144,"json_decode":6.2960991859436,"serialize":5.6335325241089,"unserialize":5.823566198349}
+Msgs: 264000
+	Json Len: 23873.360351562(KB); Avg Len: 92.599700757576(B);
+	serialize Len: 35612.547851562(KB); Avg Len: 138.13351893939(B);
+	Time use: {"json_encode":5.7724320888519,"json_decode":6.3373413085938,"serialize":5.6707692146301,"unserialize":5.8614373207092}
+Msgs: 266000
+	Json Len: 24052.743164062(KB); Avg Len: 92.594018796992(B);
+	serialize Len: 35880.41015625(KB); Avg Len: 138.12609022556(B);
+	Time use: {"json_encode":5.8121242523193,"json_decode":6.3804919719696,"serialize":5.7092576026917,"unserialize":5.9006633758545}
+Msgs: 268000
+	Json Len: 24234.662109375(KB); Avg Len: 92.598111940299(B);
+	serialize Len: 36151.6875(KB); Avg Len: 138.13182089552(B);
+	Time use: {"json_encode":5.8501176834106,"json_decode":6.4223499298096,"serialize":5.7463190555573,"unserialize":5.9389178752899}
+Msgs: 270000
+	Json Len: 24415.8203125(KB); Avg Len: 92.599259259259(B);
+	serialize Len: 36421.845703125(KB); Avg Len: 138.13322222222(B);
+	Time use: {"json_encode":5.8887424468994,"json_decode":6.4642884731293,"serialize":5.7839171886444,"unserialize":5.9771018028259}
+Msgs: 272000
+	Json Len: 24595.704101562(KB); Avg Len: 92.595591911765(B);
+	serialize Len: 36690.283203125(KB); Avg Len: 138.128125(B);
+	Time use: {"json_encode":5.9288160800934,"json_decode":6.5075304508209,"serialize":5.8230965137482,"unserialize":6.0171985626221}
+Msgs: 274000
+	Json Len: 24776.345703125(KB); Avg Len: 92.594810218978(B);
+	serialize Len: 36959.7109375(KB); Avg Len: 138.12680291971(B);
+	Time use: {"json_encode":5.9678213596344,"json_decode":6.5498077869415,"serialize":5.8608396053314,"unserialize":6.0557441711426}
+Msgs: 276000
+	Json Len: 24956.998046875(KB); Avg Len: 92.594079710145(B);
+	serialize Len: 37229.291015625(KB); Avg Len: 138.12606521739(B);
+	Time use: {"json_encode":6.0058379173279,"json_decode":6.5908665657043,"serialize":5.8978855609894,"unserialize":6.0935900211334}
+Msgs: 278000
+	Json Len: 25137.021484375(KB); Avg Len: 92.591043165468(B);
+	serialize Len: 37497.9765625(KB); Avg Len: 138.12204316547(B);
+	Time use: {"json_encode":6.044088602066,"json_decode":6.632967710495,"serialize":5.9356458187103,"unserialize":6.1323375701904}
+Msgs: 280000
+	Json Len: 25317.057617188(KB); Avg Len: 92.588096428571(B);
+	serialize Len: 37766.66015625(KB); Avg Len: 138.11807142857(B);
+	Time use: {"json_encode":6.0837409496307,"json_decode":6.6760909557343,"serialize":5.9740993976593,"unserialize":6.1720716953278}
+Msgs: 282000
+	Json Len: 25497.46484375(KB); Avg Len: 92.586539007092(B);
+	serialize Len: 38035.858398438(KB); Avg Len: 138.1160248227(B);
+	Time use: {"json_encode":6.1219902038574,"json_decode":6.7180058956146,"serialize":6.0117700099945,"unserialize":6.2104227542877}
+Msgs: 284000
+	Json Len: 25677.684570312(KB); Avg Len: 92.584327464789(B);
+	serialize Len: 38304.85546875(KB); Avg Len: 138.11328169014(B);
+	Time use: {"json_encode":6.1614344120026,"json_decode":6.7612142562866,"serialize":6.0506865978241,"unserialize":6.2492942810059}
+Msgs: 286000
+	Json Len: 25857.779296875(KB); Avg Len: 92.581699300699(B);
+	serialize Len: 38573.665039062(KB); Avg Len: 138.10990559441(B);
+	Time use: {"json_encode":6.2011804580688,"json_decode":6.8045027256012,"serialize":6.089870929718,"unserialize":6.2893905639648}
+Msgs: 288000
+	Json Len: 26038.364257812(KB); Avg Len: 92.580850694444(B);
+	serialize Len: 38843.15625(KB); Avg Len: 138.109(B);
+	Time use: {"json_encode":6.2430386543274,"json_decode":6.8499944210052,"serialize":6.1311776638031,"unserialize":6.3316404819489}
+Msgs: 290000
+	Json Len: 26218.7734375(KB); Avg Len: 92.579393103448(B);
+	serialize Len: 39112.408203125(KB); Avg Len: 138.10726206897(B);
+	Time use: {"json_encode":6.2813329696655,"json_decode":6.8910920619965,"serialize":6.1682322025299,"unserialize":6.36945104599}
+Msgs: 292000
+	Json Len: 26400.3359375(KB); Avg Len: 92.582(B);
+	serialize Len: 39383.125976562(KB); Avg Len: 138.11068835616(B);
+	Time use: {"json_encode":6.3186655044556,"json_decode":6.9320285320282,"serialize":6.2049121856689,"unserialize":6.4071381092072}
+Msgs: 294000
+	Json Len: 26582.193359375(KB); Avg Len: 92.585598639456(B);
+	serialize Len: 39654.219726562(KB); Avg Len: 138.11537755102(B);
+	Time use: {"json_encode":6.3555026054382,"json_decode":6.9721293449402,"serialize":6.2409019470215,"unserialize":6.4443106651306}
+Msgs: 296000
+	Json Len: 26763.104492188(KB); Avg Len: 92.585875(B);
+	serialize Len: 39924.200195312(KB); Avg Len: 138.11615202703(B);
+	Time use: {"json_encode":6.4318995475769,"json_decode":7.0188281536102,"serialize":6.2829740047455,"unserialize":6.5204951763153}
+Msgs: 298000
+	Json Len: 26943.029296875(KB); Avg Len: 92.582758389262(B);
+	serialize Len: 40192.794921875(KB); Avg Len: 138.11215436242(B);
+	Time use: {"json_encode":6.4856090545654,"json_decode":7.0803880691528,"serialize":6.3342137336731,"unserialize":6.5754842758179}
+Msgs: 300000
+	Json Len: 27124.19921875(KB); Avg Len: 92.583933333333(B);
+	serialize Len: 40463.048828125(KB); Avg Len: 138.11387333333(B);
+	Time use: {"json_encode":6.5244791507721,"json_decode":7.1225018501282,"serialize":6.37171626091,"unserialize":6.613171339035}
+Msgs: 302000
+	Json Len: 27305.284179688(KB); Avg Len: 92.584804635762(B);
+	serialize Len: 40732.989257812(KB); Avg Len: 138.11450662252(B);
+	Time use: {"json_encode":6.5642533302307,"json_decode":7.1647100448608,"serialize":6.4097354412079,"unserialize":6.6525955200195}
+Msgs: 304000
+	Json Len: 27484.6953125(KB); Avg Len: 92.580026315789(B);
+	serialize Len: 41000.888671875(KB); Avg Len: 138.10825657895(B);
+	Time use: {"json_encode":6.6057460308075,"json_decode":7.2105867862701,"serialize":6.4504582881927,"unserialize":6.6937673091888}
+Msgs: 306000
+	Json Len: 27664.9765625(KB); Avg Len: 92.578222222222(B);
+	serialize Len: 41270.049804688(KB); Avg Len: 138.10631045752(B);
+	Time use: {"json_encode":6.6533186435699,"json_decode":7.2643749713898,"serialize":6.4962954521179,"unserialize":6.7410087585449}
+Msgs: 308000
+	Json Len: 27845.6875(KB); Avg Len: 92.57787012987(B);
+	serialize Len: 41539.541015625(KB); Avg Len: 138.10548701299(B);
+	Time use: {"json_encode":6.694849729538,"json_decode":7.3095102310181,"serialize":6.5367970466614,"unserialize":6.7868118286133}
+Msgs: 310000
+	Json Len: 28026.456054688(KB); Avg Len: 92.577712903226(B);
+	serialize Len: 41809.2578125(KB); Avg Len: 138.10541935484(B);
+	Time use: {"json_encode":6.734855890274,"json_decode":7.3526866436005,"serialize":6.5759258270264,"unserialize":6.8259234428406}
+Msgs: 312000
+	Json Len: 28208.36328125(KB); Avg Len: 92.581294871795(B);
+	serialize Len: 42080.44921875(KB); Avg Len: 138.11019230769(B);
+	Time use: {"json_encode":6.7734522819519,"json_decode":7.3949801921844,"serialize":6.6137847900391,"unserialize":6.8650708198547}
+Msgs: 314000
+	Json Len: 28389.020507812(KB); Avg Len: 92.58075477707(B);
+	serialize Len: 42350.020507812(KB); Avg Len: 138.10962101911(B);
+	Time use: {"json_encode":6.8132283687592,"json_decode":7.437490940094,"serialize":6.6531314849854,"unserialize":6.9055483341217}
+Msgs: 316000
+	Json Len: 28569.546875(KB); Avg Len: 92.579797468354(B);
+	serialize Len: 42619.288085938(KB); Avg Len: 138.10807278481(B);
+	Time use: {"json_encode":6.8537242412567,"json_decode":7.4814069271088,"serialize":6.692608833313,"unserialize":6.9457447528839}
+Msgs: 318000
+	Json Len: 28750.030273438(KB); Avg Len: 92.578713836478(B);
+	serialize Len: 42888.506835938(KB); Avg Len: 138.10638679245(B);
+	Time use: {"json_encode":6.8912887573242,"json_decode":7.5219166278839,"serialize":6.7293086051941,"unserialize":6.9842734336853}
+Msgs: 320000
+	Json Len: 28930.255859375(KB); Avg Len: 92.57681875(B);
+	serialize Len: 43157.559570312(KB); Avg Len: 138.104190625(B);
+	Time use: {"json_encode":6.9312658309937,"json_decode":7.5652949810028,"serialize":6.7699921131134,"unserialize":7.024477481842}
+Msgs: 322000
+	Json Len: 29110.447265625(KB); Avg Len: 92.574838509317(B);
+	serialize Len: 43426.482421875(KB); Avg Len: 138.10160869565(B);
+	Time use: {"json_encode":6.970593214035,"json_decode":7.6083884239197,"serialize":6.8085250854492,"unserialize":7.06423163414}
+Msgs: 324000
+	Json Len: 29291.151367188(KB); Avg Len: 92.57450308642(B);
+	serialize Len: 43696.157226562(KB); Avg Len: 138.10143518519(B);
+	Time use: {"json_encode":7.0104267597198,"json_decode":7.651474237442,"serialize":6.8474197387695,"unserialize":7.1037540435791}
+Msgs: 326000
+	Json Len: 29472.327148438(KB); Avg Len: 92.575653374233(B);
+	serialize Len: 43966.389648438(KB); Avg Len: 138.10301533742(B);
+	Time use: {"json_encode":7.0490264892578,"json_decode":7.6936187744141,"serialize":6.885066986084,"unserialize":7.1425926685333}
+Msgs: 328000
+	Json Len: 29653.224609375(KB); Avg Len: 92.575920731707(B);
+	serialize Len: 44236.178710938(KB); Avg Len: 138.10319207317(B);
+	Time use: {"json_encode":7.0881879329681,"json_decode":7.7358193397522,"serialize":6.9230763912201,"unserialize":7.1815273761749}
+Msgs: 330000
+	Json Len: 29832.959960938(KB); Avg Len: 92.572578787879(B);
+	serialize Len: 44504.408203125(KB); Avg Len: 138.09852727273(B);
+	Time use: {"json_encode":7.1265969276428,"json_decode":7.7780373096466,"serialize":6.9605255126953,"unserialize":7.2206826210022}
+Msgs: 332000
+	Json Len: 30013.74609375(KB); Avg Len: 92.572518072289(B);
+	serialize Len: 44774.181640625(KB); Avg Len: 138.09868072289(B);
+	Time use: {"json_encode":7.163459777832,"json_decode":7.8184902667999,"serialize":6.9987368583679,"unserialize":7.2581651210785}
+Msgs: 334000
+	Json Len: 30194.103515625(KB); Avg Len: 92.571143712575(B);
+	serialize Len: 45043.350585938(KB); Avg Len: 138.09697904192(B);
+	Time use: {"json_encode":7.2038993835449,"json_decode":7.8621461391449,"serialize":7.0378358364105,"unserialize":7.2983882427216}
+Msgs: 336000
+	Json Len: 30374.547851562(KB); Avg Len: 92.570050595238(B);
+	serialize Len: 45312.66796875(KB); Avg Len: 138.09575(B);
+	Time use: {"json_encode":7.2431199550629,"json_decode":7.9044804573059,"serialize":7.0758299827576,"unserialize":7.3371338844299}
+Msgs: 338000
+	Json Len: 30555.708984375(KB); Avg Len: 92.571142011834(B);
+	serialize Len: 45582.834960938(KB); Avg Len: 138.09710946746(B);
+	Time use: {"json_encode":7.2857213020325,"json_decode":7.9510362148285,"serialize":7.1180055141449,"unserialize":7.3793103694916}
+Msgs: 340000
+	Json Len: 30736.583984375(KB); Avg Len: 92.571358823529(B);
+	serialize Len: 45852.767578125(KB); Avg Len: 138.09774705882(B);
+	Time use: {"json_encode":7.3237273693085,"json_decode":7.9927895069122,"serialize":7.1554279327393,"unserialize":7.4178440570831}
+Msgs: 342000
+	Json Len: 30916.544921875(KB); Avg Len: 92.56883625731(B);
+	serialize Len: 46121.435546875(KB); Avg Len: 138.09459064327(B);
+	Time use: {"json_encode":7.3613014221191,"json_decode":8.0334942340851,"serialize":7.1923310756683,"unserialize":7.4554228782654}
+Msgs: 344000
+	Json Len: 31097.354492188(KB); Avg Len: 92.568869186047(B);
+	serialize Len: 46391.178710938(KB); Avg Len: 138.09467151163(B);
+	Time use: {"json_encode":7.399112701416,"json_decode":8.0749089717865,"serialize":7.2294704914093,"unserialize":7.4934978485107}
+Msgs: 346000
+	Json Len: 31277.541992188(KB); Avg Len: 92.567060693642(B);
+	serialize Len: 46660.1796875(KB); Avg Len: 138.09255491329(B);
+	Time use: {"json_encode":7.4364926815033,"json_decode":8.1156170368195,"serialize":7.2662646770477,"unserialize":7.5307581424713}
+Msgs: 348000
+	Json Len: 31456.81640625(KB); Avg Len: 92.562586206897(B);
+	serialize Len: 46927.936523438(KB); Avg Len: 138.08680172414(B);
+	Time use: {"json_encode":7.4760098457336,"json_decode":8.1582403182983,"serialize":7.3050847053528,"unserialize":7.5707323551178}
+Msgs: 350000
+	Json Len: 31636.737304688(KB); Avg Len: 92.560054285714(B);
+	serialize Len: 47196.580078125(KB); Avg Len: 138.08370857143(B);
+	Time use: {"json_encode":7.5145256519318,"json_decode":8.1996111869812,"serialize":7.342289686203,"unserialize":7.6088876724243}
+Msgs: 352000
+	Json Len: 31818.3515625(KB); Avg Len: 92.562477272727(B);
+	serialize Len: 47467.344726562(KB); Avg Len: 138.08682102273(B);
+	Time use: {"json_encode":7.5569467544556,"json_decode":8.2425997257233,"serialize":7.3814239501953,"unserialize":7.6481876373291}
+Msgs: 354000
+	Json Len: 31999.404296875(KB); Avg Len: 92.563248587571(B);
+	serialize Len: 47737.541015625(KB); Avg Len: 138.08825423729(B);
+	Time use: {"json_encode":7.5948133468628,"json_decode":8.2843091487885,"serialize":7.4185757637024,"unserialize":7.6863052845001}
+Msgs: 356000
+	Json Len: 32180.075195312(KB); Avg Len: 92.562912921348(B);
+	serialize Len: 48007.147460938(KB); Avg Len: 138.0879747191(B);
+	Time use: {"json_encode":7.6343576908112,"json_decode":8.3273890018463,"serialize":7.4572110176086,"unserialize":7.7255735397339}
+Msgs: 358000
+	Json Len: 32361.10546875(KB); Avg Len: 92.563608938547(B);
+	serialize Len: 48277.190429688(KB); Avg Len: 138.08894692737(B);
+	Time use: {"json_encode":7.6718666553497,"json_decode":8.3683393001556,"serialize":7.4947724342346,"unserialize":7.763795375824}
+Msgs: 360000
+	Json Len: 32541.671875(KB); Avg Len: 92.562977777778(B);
+	serialize Len: 48546.516601562(KB); Avg Len: 138.08786944444(B);
+	Time use: {"json_encode":7.71120262146,"json_decode":8.4608211517334,"serialize":7.533145904541,"unserialize":7.8033013343811}
+Msgs: 362000
+	Json Len: 32722.607421875(KB); Avg Len: 92.563397790055(B);
+	serialize Len: 48816.3984375(KB); Avg Len: 138.08837569061(B);
+	Time use: {"json_encode":7.7493908405304,"json_decode":8.502468585968,"serialize":7.5702774524689,"unserialize":7.8413705825806}
+Msgs: 364000
+	Json Len: 32902.682617188(KB); Avg Len: 92.561392857143(B);
+	serialize Len: 49085.185546875(KB); Avg Len: 138.0857967033(B);
+	Time use: {"json_encode":7.7883763313293,"json_decode":8.5443971157074,"serialize":7.6083207130432,"unserialize":7.8798942565918}
+Msgs: 366000
+	Json Len: 33081.774414062(KB); Avg Len: 92.556658469945(B);
+	serialize Len: 49352.686523438(KB); Avg Len: 138.07964754098(B);
+	Time use: {"json_encode":7.8263263702393,"json_decode":8.5851120948792,"serialize":7.6456587314606,"unserialize":7.9172515869141}
+Msgs: 368000
+	Json Len: 33261.521484375(KB); Avg Len: 92.553798913043(B);
+	serialize Len: 49621.1328125(KB); Avg Len: 138.07619565217(B);
+	Time use: {"json_encode":7.8654544353485,"json_decode":8.627738237381,"serialize":7.6839878559113,"unserialize":7.9566547870636}
+Msgs: 370000
+	Json Len: 33442.596679688(KB); Avg Len: 92.554645945946(B);
+	serialize Len: 49891.34765625(KB); Avg Len: 138.07767567568(B);
+	Time use: {"json_encode":7.9017603397369,"json_decode":8.6672384738922,"serialize":7.7198824882507,"unserialize":7.9932632446289}
+Msgs: 372000
+	Json Len: 33622.401367188(KB); Avg Len: 92.55198655914(B);
+	serialize Len: 50159.661132812(KB); Avg Len: 138.07390591398(B);
+	Time use: {"json_encode":7.9384076595306,"json_decode":8.7083263397217,"serialize":7.7560620307922,"unserialize":8.0306043624878}
+Msgs: 374000
+	Json Len: 33802.970703125(KB); Avg Len: 92.551449197861(B);
+	serialize Len: 50429.229492188(KB); Avg Len: 138.07361229947(B);
+	Time use: {"json_encode":7.976922750473,"json_decode":8.7504062652588,"serialize":7.7933928966522,"unserialize":8.0687301158905}
+Msgs: 376000
+	Json Len: 33984.236328125(KB); Avg Len: 92.552813829787(B);
+	serialize Len: 50699.7421875(KB); Avg Len: 138.07589361702(B);
+	Time use: {"json_encode":8.0147190093994,"json_decode":8.7916874885559,"serialize":7.8308751583099,"unserialize":8.106734752655}
+Msgs: 378000
+	Json Len: 34164.940429688(KB); Avg Len: 92.552642857143(B);
+	serialize Len: 50969.399414062(KB); Avg Len: 138.07583333333(B);
+	Time use: {"json_encode":8.0534133911133,"json_decode":8.8338792324066,"serialize":7.8688015937805,"unserialize":8.1453237533569}
+Msgs: 380000
+	Json Len: 34344.857421875(KB); Avg Len: 92.550352631579(B);
+	serialize Len: 51238.259765625(KB); Avg Len: 138.07362631579(B);
+	Time use: {"json_encode":8.0947332382202,"json_decode":8.8788635730743,"serialize":7.9094562530518,"unserialize":8.1866095066071}
+Msgs: 382000
+	Json Len: 34524.387695312(KB); Avg Len: 92.54704973822(B);
+	serialize Len: 51506.586914062(KB); Avg Len: 138.07001308901(B);
+	Time use: {"json_encode":8.1331641674042,"json_decode":8.9205389022827,"serialize":7.9470636844635,"unserialize":8.2250022888184}
+Msgs: 384000
+	Json Len: 34704.561523438(KB); Avg Len: 92.545497395833(B);
+	serialize Len: 51775.576171875(KB); Avg Len: 138.068203125(B);
+	Time use: {"json_encode":8.1723408699036,"json_decode":8.9627599716187,"serialize":7.9855692386627,"unserialize":8.2639589309692}
+Msgs: 386000
+	Json Len: 34884.084960938(KB); Avg Len: 92.542235751295(B);
+	serialize Len: 52043.64453125(KB); Avg Len: 138.06396891192(B);
+	Time use: {"json_encode":8.2128934860229,"json_decode":9.0065290927887,"serialize":8.0263946056366,"unserialize":8.3053593635559}
+Msgs: 388000
+	Json Len: 35063.920898438(KB); Avg Len: 92.539832474227(B);
+	serialize Len: 52312.145507812(KB); Avg Len: 138.06092010309(B);
+	Time use: {"json_encode":8.2518074512482,"json_decode":9.0490040779114,"serialize":8.0649161338806,"unserialize":8.3439500331879}
+Msgs: 390000
+	Json Len: 35244.53515625(KB); Avg Len: 92.539497435897(B);
+	serialize Len: 52581.868164062(KB); Avg Len: 138.06111025641(B);
+	Time use: {"json_encode":8.2916595935822,"json_decode":9.0918936729431,"serialize":8.1039681434631,"unserialize":8.3841938972473}
+Msgs: 392000
+	Json Len: 35424.520507812(KB); Avg Len: 92.537522959184(B);
+	serialize Len: 52850.647460938(KB); Avg Len: 138.05883418367(B);
+	Time use: {"json_encode":8.330992937088,"json_decode":9.1362442970276,"serialize":8.1431415081024,"unserialize":8.4230060577393}
+Msgs: 394000
+	Json Len: 35603.921875(KB); Avg Len: 92.534050761421(B);
+	serialize Len: 53118.4921875(KB); Avg Len: 138.05415228426(B);
+	Time use: {"json_encode":8.3699054718018,"json_decode":9.1786243915558,"serialize":8.1814393997192,"unserialize":8.461971282959}
+Msgs: 396000
+	Json Len: 35784.888671875(KB); Avg Len: 92.534661616162(B);
+	serialize Len: 53388.478515625(KB); Avg Len: 138.05505555556(B);
+	Time use: {"json_encode":8.4084916114807,"json_decode":9.2206048965454,"serialize":8.2193398475647,"unserialize":8.5004751682281}
+Msgs: 398000
+	Json Len: 35965.104492188(KB); Avg Len: 92.533334170854(B);
+	serialize Len: 53657.369140625(KB); Avg Len: 138.05313065327(B);
+	Time use: {"json_encode":8.4473261833191,"json_decode":9.2626357078552,"serialize":8.2573914527893,"unserialize":8.538985490799}
+Msgs: 400000
+	Json Len: 36145.337890625(KB); Avg Len: 92.532065(B);
+	serialize Len: 53926.279296875(KB); Avg Len: 138.051275(B);
+	Time use: {"json_encode":8.4917044639587,"json_decode":9.3059513568878,"serialize":8.2972736358643,"unserialize":8.5812380313873}
+Msgs: 402000
+	Json Len: 36324.536132812(KB); Avg Len: 92.528171641791(B);
+	serialize Len: 54193.78515625(KB); Avg Len: 138.04586069652(B);
+	Time use: {"json_encode":8.5649449825287,"json_decode":9.3475573062897,"serialize":8.3344647884369,"unserialize":8.6193361282349}
+Msgs: 404000
+	Json Len: 36505.206054688(KB); Avg Len: 92.528047029703(B);
+	serialize Len: 54463.29296875(KB); Avg Len: 138.04557425743(B);
+	Time use: {"json_encode":8.6037697792053,"json_decode":9.3897180557251,"serialize":8.3722534179688,"unserialize":8.6579239368439}
+Msgs: 406000
+	Json Len: 36685.305664062(KB); Avg Len: 92.526485221675(B);
+	serialize Len: 54731.970703125(KB); Avg Len: 138.04319704433(B);
+	Time use: {"json_encode":8.6423461437225,"json_decode":9.4315185546875,"serialize":8.4098055362701,"unserialize":8.6966075897217}
+Msgs: 408000
+	Json Len: 36866.0625(KB); Avg Len: 92.526588235294(B);
+	serialize Len: 55001.592773438(KB); Avg Len: 138.04321323529(B);
+	Time use: {"json_encode":8.6800212860107,"json_decode":9.4720501899719,"serialize":8.446418762207,"unserialize":8.7340180873871}
+Msgs: 410000
+	Json Len: 37046.219726562(KB); Avg Len: 92.525192682927(B);
+	serialize Len: 55270.380859375(KB); Avg Len: 138.04114634146(B);
+	Time use: {"json_encode":8.719066619873,"json_decode":9.5145626068115,"serialize":8.4848184585571,"unserialize":8.7735552787781}
+Msgs: 412000
+	Json Len: 37225.4296875(KB); Avg Len: 92.52145631068(B);
+	serialize Len: 55537.91015625(KB); Avg Len: 138.03597087379(B);
+	Time use: {"json_encode":8.7588264942169,"json_decode":9.5574240684509,"serialize":8.5234637260437,"unserialize":8.8127565383911}
+Msgs: 414000
+	Json Len: 37405.146484375(KB); Avg Len: 92.519009661836(B);
+	serialize Len: 55806.2265625(KB); Avg Len: 138.03279227053(B);
+	Time use: {"json_encode":8.7978196144104,"json_decode":9.5997352600098,"serialize":8.5614290237427,"unserialize":8.8515892028809}
+Msgs: 416000
+	Json Len: 37585.966796875(KB); Avg Len: 92.519302884615(B);
+	serialize Len: 56076.095703125(KB); Avg Len: 138.03346634615(B);
+	Time use: {"json_encode":8.8376400470734,"json_decode":9.6432991027832,"serialize":8.6350564956665,"unserialize":8.8923561573029}
+Msgs: 418000
+	Json Len: 37766.578125(KB); Avg Len: 92.519081339713(B);
+	serialize Len: 56345.916992188(KB); Avg Len: 138.03401674641(B);
+	Time use: {"json_encode":8.8883812427521,"json_decode":9.698769569397,"serialize":8.6824150085449,"unserialize":8.9424982070923}
+Msgs: 420000
+	Json Len: 37946.106445312(KB); Avg Len: 92.516221428571(B);
+	serialize Len: 56614.0390625(KB); Avg Len: 138.03041904762(B);
+	Time use: {"json_encode":8.9445290565491,"json_decode":9.7547202110291,"serialize":8.7295386791229,"unserialize":8.9936308860779}
+Msgs: 422000
+	Json Len: 38126.11328125(KB); Avg Len: 92.514549763033(B);
+	serialize Len: 56882.853515625(KB); Avg Len: 138.02853554502(B);
+	Time use: {"json_encode":8.9812996387482,"json_decode":9.7949600219727,"serialize":8.7657153606415,"unserialize":9.0302083492279}
+Msgs: 424000
+	Json Len: 38307.365234375(KB); Avg Len: 92.515900943396(B);
+	serialize Len: 57153.213867188(KB); Avg Len: 138.03040330189(B);
+	Time use: {"json_encode":9.0194041728973,"json_decode":9.8697583675385,"serialize":8.8298156261444,"unserialize":9.0683386325836}
+
+-------------------Result-----------------
+Msgs: 425886
+Json Len38478.354492188(KB); Avg: 92.517328580888(B);
+serialize Len57408.3125(KB); Avg: 138.03250635146(B);
+{"json_encode":9.2060298919678,"json_decode":9.9462702274323,"serialize":8.8833558559418,"unserialize":9.1088426113129}
+2015-03-26 15:13:40 /Users/dushengchen/work/git/kt/rabbitmq/demo/gift.log
+-------------------end-----------------
+-----------------start---------------
+2015-03-26 15:13:48 /Users/dushengchen/work/git/kt/rabbitmq/demo/loadData.log
+Msgs: 2000
+	Json Len: 7822.107421875(KB); Avg Len: 4004.919(B);
+	serialize Len: 10485.828125(KB); Avg Len: 5368.744(B);
+	Time use: {"json_encode":0.18306827545166,"json_decode":0.28759384155273,"serialize":0.16537308692932,"unserialize":0.18954229354858}
+Msgs: 4000
+	Json Len: 15914.07421875(KB); Avg Len: 4074.003(B);
+	serialize Len: 21335.150390625(KB); Avg Len: 5461.7985(B);
+	Time use: {"json_encode":0.36534595489502,"json_decode":0.57597088813782,"serialize":0.32952451705933,"unserialize":0.38108587265015}
+Msgs: 6000
+	Json Len: 23885.40234375(KB); Avg Len: 4076.442(B);
+	serialize Len: 32023.0703125(KB); Avg Len: 5465.2706666667(B);
+	Time use: {"json_encode":0.54883718490601,"json_decode":0.86746263504028,"serialize":0.49591135978699,"unserialize":0.57721757888794}
+Msgs: 8000
+	Json Len: 32094.112304688(KB); Avg Len: 4108.046375(B);
+	serialize Len: 43032.525390625(KB); Avg Len: 5508.16325(B);
+	Time use: {"json_encode":0.7415931224823,"json_decode":1.1712474822998,"serialize":0.66910791397095,"unserialize":0.78676867485046}
+Msgs: 10000
+	Json Len: 39929.594726562(KB); Avg Len: 4088.7905(B);
+	serialize Len: 53550.461914062(KB); Avg Len: 5483.5673(B);
+	Time use: {"json_encode":0.92628192901611,"json_decode":1.4590384960175,"serialize":0.8319947719574,"unserialize":0.9841091632843}
+Msgs: 12000
+	Json Len: 47964.234375(KB); Avg Len: 4092.948(B);
+	serialize Len: 64325.478515625(KB); Avg Len: 5489.1075(B);
+	Time use: {"json_encode":1.111447095871,"json_decode":1.7516579627991,"serialize":0.99926781654358,"unserialize":1.1801083087921}
+Msgs: 14000
+	Json Len: 55502.872070312(KB); Avg Len: 4059.6386428571(B);
+	serialize Len: 74441.58984375(KB); Avg Len: 5444.8705714286(B);
+	Time use: {"json_encode":1.2870745658875,"json_decode":2.0220041275024,"serialize":1.1541106700897,"unserialize":1.3683030605316}
+Msgs: 16000
+	Json Len: 63347.53125(KB); Avg Len: 4054.242(B);
+	serialize Len: 84963.088867188(KB); Avg Len: 5437.6376875(B);
+	Time use: {"json_encode":1.4861073493958,"json_decode":2.3098695278168,"serialize":1.3171255588531,"unserialize":1.5652859210968}
+Msgs: 18000
+	Json Len: 71311.709960938(KB); Avg Len: 4056.8439444444(B);
+	serialize Len: 95639.819335938(KB); Avg Len: 5440.8430555556(B);
+	Time use: {"json_encode":1.7280514240265,"json_decode":2.6946532726288,"serialize":1.5726029872894,"unserialize":1.9027948379517}
+Msgs: 20000
+	Json Len: 79385.176757812(KB); Avg Len: 4064.52105(B);
+	serialize Len: 106462.44824219(KB); Avg Len: 5450.87735(B);
+	Time use: {"json_encode":1.9508199691772,"json_decode":3.0396907329559,"serialize":1.7796261310577,"unserialize":2.1611039638519}
+Msgs: 22000
+	Json Len: 87676.51953125(KB); Avg Len: 4080.9434545455(B);
+	serialize Len: 117575.24316406(KB); Avg Len: 5472.5931363636(B);
+	Time use: {"json_encode":2.1834881305695,"json_decode":3.5264918804169,"serialize":2.0014779567719,"unserialize":2.4533877372742}
+Msgs: 24000
+	Json Len: 95630.798828125(KB); Avg Len: 4080.2474166667(B);
+	serialize Len: 128248.81445312(KB); Avg Len: 5471.9494166667(B);
+	Time use: {"json_encode":2.368271112442,"json_decode":3.814954996109,"serialize":2.1627914905548,"unserialize":2.678186416626}
+Msgs: 26000
+	Json Len: 103246.51464844(KB); Avg Len: 4066.3242692308(B);
+	serialize Len: 138468.73339844(KB); Avg Len: 5453.5378076923(B);
+	Time use: {"json_encode":2.5526554584503,"json_decode":4.1033072471619,"serialize":2.3246359825134,"unserialize":2.8821659088135}
+
+-------------------Result-----------------
+Msgs: 26933
+Json Len106810.11230469(KB); Avg: 4060.9495785839(B);
+serialize Len143250.96875(KB); Avg: 5446.440871793(B);
+{"json_encode":2.6358335018158,"json_decode":4.2320928573608,"serialize":2.3959641456604,"unserialize":2.9714794158936}
+2015-03-26 15:14:08 /Users/dushengchen/work/git/kt/rabbitmq/demo/loadData.log
+-------------------end-----------------
+-----------------start---------------
+2015-03-26 15:35:01 /Users/dushengchen/work/git/kt/rabbitmq/demo/loadData.log
+Msgs: 2000
+	Json Len: 7822.107421875(KB); Avg Len: 4004.919(B);
+	serialize Len: 10485.828125(KB); Avg Len: 5368.744(B);
+	Time use: {"json_encode":0.18506598472595,"json_decode":0.29952144622803,"serialize":0.16832375526428,"unserialize":0.2187979221344}
+Msgs: 4000
+	Json Len: 15914.07421875(KB); Avg Len: 4074.003(B);
+	serialize Len: 21335.150390625(KB); Avg Len: 5461.7985(B);
+	Time use: {"json_encode":0.38364338874817,"json_decode":0.60236048698425,"serialize":0.33966708183289,"unserialize":0.42553210258484}
+Msgs: 6000
+	Json Len: 23885.40234375(KB); Avg Len: 4076.442(B);
+	serialize Len: 32023.0703125(KB); Avg Len: 5465.2706666667(B);
+	Time use: {"json_encode":0.57351326942444,"json_decode":0.89571046829224,"serialize":0.5095329284668,"unserialize":0.62604594230652}
+Msgs: 8000
+	Json Len: 32094.112304688(KB); Avg Len: 4108.046375(B);
+	serialize Len: 43032.525390625(KB); Avg Len: 5508.16325(B);
+	Time use: {"json_encode":0.76823687553406,"json_decode":1.1868879795074,"serialize":0.67116403579712,"unserialize":0.82291793823242}
+Msgs: 10000
+	Json Len: 39929.594726562(KB); Avg Len: 4088.7905(B);
+	serialize Len: 53550.461914062(KB); Avg Len: 5483.5673(B);
+	Time use: {"json_encode":0.9600076675415,"json_decode":1.4808783531189,"serialize":0.83859395980835,"unserialize":1.0245633125305}
+Msgs: 12000
+	Json Len: 47964.234375(KB); Avg Len: 4092.948(B);
+	serialize Len: 64325.478515625(KB); Avg Len: 5489.1075(B);
+	Time use: {"json_encode":1.2854447364807,"json_decode":1.7794528007507,"serialize":1.0072569847107,"unserialize":1.2315356731415}
+Msgs: 14000
+	Json Len: 55502.872070312(KB); Avg Len: 4059.6386428571(B);
+	serialize Len: 74441.58984375(KB); Avg Len: 5444.8705714286(B);
+	Time use: {"json_encode":1.4704649448395,"json_decode":2.0584478378296,"serialize":1.1792492866516,"unserialize":1.4311890602112}
+Msgs: 16000
+	Json Len: 63347.53125(KB); Avg Len: 4054.242(B);
+	serialize Len: 84963.088867188(KB); Avg Len: 5437.6376875(B);
+	Time use: {"json_encode":1.6894476413727,"json_decode":2.4012296199799,"serialize":1.448611497879,"unserialize":1.6925582885742}
+Msgs: 18000
+	Json Len: 71311.709960938(KB); Avg Len: 4056.8439444444(B);
+	serialize Len: 95639.819335938(KB); Avg Len: 5440.8430555556(B);
+	Time use: {"json_encode":1.9025020599365,"json_decode":2.7202541828156,"serialize":1.63649559021,"unserialize":1.9564230442047}
+Msgs: 20000
+	Json Len: 79385.176757812(KB); Avg Len: 4064.52105(B);
+	serialize Len: 106462.44824219(KB); Avg Len: 5450.87735(B);
+	Time use: {"json_encode":2.1353981494904,"json_decode":3.1398212909698,"serialize":1.8497741222382,"unserialize":2.2276468276978}
+Msgs: 22000
+	Json Len: 87676.51953125(KB); Avg Len: 4080.9434545455(B);
+	serialize Len: 117575.24316406(KB); Avg Len: 5472.5931363636(B);
+	Time use: {"json_encode":2.3865132331848,"json_decode":3.5279850959778,"serialize":2.0844101905823,"unserialize":2.5327486991882}
+Msgs: 24000
+	Json Len: 95630.798828125(KB); Avg Len: 4080.2474166667(B);
+	serialize Len: 128248.81445312(KB); Avg Len: 5471.9494166667(B);
+	Time use: {"json_encode":2.6001646518707,"json_decode":3.8592984676361,"serialize":2.4258544445038,"unserialize":2.8095786571503}
+Msgs: 26000
+	Json Len: 103246.51464844(KB); Avg Len: 4066.3242692308(B);
+	serialize Len: 138468.73339844(KB); Avg Len: 5453.5378076923(B);
+	Time use: {"json_encode":2.8672337532043,"json_decode":4.2674853801727,"serialize":2.6955506801605,"unserialize":3.1449031829834}
+Msgs: 28000
+	Json Len: 110881.26171875(KB); Avg Len: 4055.0861428571(B);
+	serialize Len: 148715.73535156(KB); Avg Len: 5438.7468928571(B);
+	Time use: {"json_encode":3.0669884681702,"json_decode":4.564094543457,"serialize":2.8884150981903,"unserialize":3.3782362937927}
+Msgs: 30000
+	Json Len: 118546.04394531(KB); Avg Len: 4046.3716333333(B);
+	serialize Len: 159002.18066406(KB); Avg Len: 5427.2744333333(B);
+	Time use: {"json_encode":3.2924842834473,"json_decode":4.909191608429,"serialize":3.1224479675293,"unserialize":3.6443421840668}
+Msgs: 32000
+	Json Len: 126135.1640625(KB); Avg Len: 4036.32525(B);
+	serialize Len: 169184.94238281(KB); Avg Len: 5413.91815625(B);
+	Time use: {"json_encode":3.4838774204254,"json_decode":5.1990473270416,"serialize":3.288919210434,"unserialize":3.8629078865051}
+Msgs: 34000
+	Json Len: 133941.88085938(KB); Avg Len: 4034.0142941176(B);
+	serialize Len: 179656.08691406(KB); Avg Len: 5410.8186176471(B);
+	Time use: {"json_encode":3.6839599609375,"json_decode":5.5340158939362,"serialize":3.4616987705231,"unserialize":4.0891709327698}
+Msgs: 36000
+	Json Len: 141772.63378906(KB); Avg Len: 4032.6438055556(B);
+	serialize Len: 190158.90917969(KB); Avg Len: 5408.9645277778(B);
+	Time use: {"json_encode":3.9182906150818,"json_decode":5.868067741394,"serialize":3.6491663455963,"unserialize":4.3510975837708}
+Msgs: 38000
+	Json Len: 149578.29101562(KB); Avg Len: 4030.7413157895(B);
+	serialize Len: 200628.49804688(KB); Avg Len: 5406.4100526316(B);
+	Time use: {"json_encode":4.2085835933685,"json_decode":6.282041311264,"serialize":3.8885703086853,"unserialize":4.6657474040985}
+Msgs: 40000
+	Json Len: 157776.0625(KB); Avg Len: 4039.0672(B);
+	serialize Len: 211629.29492188(KB); Avg Len: 5417.70995(B);
+	Time use: {"json_encode":4.4428753852844,"json_decode":6.6181118488312,"serialize":4.0958685874939,"unserialize":4.9411985874176}
+Msgs: 42000
+	Json Len: 165227.80957031(KB); Avg Len: 4028.4113571429(B);
+	serialize Len: 221630.94042969(KB); Avg Len: 5403.5734047619(B);
+	Time use: {"json_encode":4.6299273967743,"json_decode":6.8940391540527,"serialize":4.2536201477051,"unserialize":5.1450340747833}
+Msgs: 44000
+	Json Len: 172820.59570312(KB); Avg Len: 4022.0065909091(B);
+	serialize Len: 231816.91894531(KB); Avg Len: 5395.0119318182(B);
+	Time use: {"json_encode":4.8106806278229,"json_decode":7.1646366119385,"serialize":4.4054226875305,"unserialize":5.3427431583405}
+Msgs: 46000
+	Json Len: 180431.55761719(KB); Avg Len: 4016.5633695652(B);
+	serialize Len: 242030.68066406(KB); Avg Len: 5387.8134130435(B);
+	Time use: {"json_encode":5.0520303249359,"json_decode":7.4527630805969,"serialize":4.5696957111359,"unserialize":5.5570123195648}
+Msgs: 48000
+	Json Len: 187808.40917969(KB); Avg Len: 4006.5793958333(B);
+	serialize Len: 251930.59765625(KB); Avg Len: 5374.5194166667(B);
+	Time use: {"json_encode":5.2362422943115,"json_decode":7.7255499362946,"serialize":4.7252950668335,"unserialize":5.7590136528015}
+Msgs: 50000
+	Json Len: 195424.36523438(KB); Avg Len: 4002.291(B);
+	serialize Len: 262152.72851562(KB); Avg Len: 5368.88788(B);
+	Time use: {"json_encode":5.4255590438843,"json_decode":8.0014755725861,"serialize":4.8840427398682,"unserialize":5.9617710113525}
+Msgs: 52000
+	Json Len: 203040.09082031(KB); Avg Len: 3998.3279423077(B);
+	serialize Len: 272378.81054688(KB); Avg Len: 5363.7673461538(B);
+	Time use: {"json_encode":5.7649939060211,"json_decode":8.2875151634216,"serialize":5.1707155704498,"unserialize":6.1726298332214}
+Msgs: 54000
+	Json Len: 210728.80566406(KB); Avg Len: 3996.042537037(B);
+	serialize Len: 282698.81933594(KB); Avg Len: 5360.8072407407(B);
+	Time use: {"json_encode":5.9616434574127,"json_decode":8.5684175491333,"serialize":5.3328244686127,"unserialize":6.3807435035706}
+Msgs: 56000
+	Json Len: 218307.14941406(KB); Avg Len: 3991.9021607143(B);
+	serialize Len: 292871.83691406(KB); Avg Len: 5355.3707321429(B);
+	Time use: {"json_encode":6.149941444397,"json_decode":8.8570568561554,"serialize":5.4936966896057,"unserialize":6.5937633514404}
+
+-------------------Result-----------------
+Msgs: 56592
+Json Len: 220484.78710938(KB); Avg: 3989.5466143625(B);
+serialize Len: 295795.42089844(KB); Avg: 5352.2496289228(B);
+{"json_encode":6.204293012619,"json_decode":8.9376554489136,"serialize":5.5390832424164,"unserialize":6.6529340744019}
+2015-03-26 15:35:43 /Users/dushengchen/work/git/kt/rabbitmq/demo/loadData.log
+-------------------end-----------------
