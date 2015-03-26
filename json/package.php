@@ -1,7 +1,7 @@
 #! /usr/bin/env php
 <?php
 /**
- * 发送消息到queue
+ * 测试json和serialize性能
  * Created by PhpStorm.
  * User: dushengchen
  * Date: 15/3/25
