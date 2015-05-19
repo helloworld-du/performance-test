@@ -4,6 +4,7 @@ require __DIR__.'/conf.inc.php';
 
 /**
  * 随机生成长度在 $iMinLen-$iMaxLen之间的字符串$iNum个
+ * 使用方法 foreach(createMsg ($iMinLen, $iMaxLen, $iNum) as $strMsg) {...}
  * @param $iMinLen
  * @param $iMaxLen
  * @param $iNum

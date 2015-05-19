@@ -2,4 +2,4 @@
 /demo/log/
 /vendor
 /composer.lock
-
+.idea/
